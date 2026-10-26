@@ -1,0 +1,191 @@
+{
+  "packs": [
+    {
+      "id": "winter_demo",
+      "name": "Winter demo",
+      "version": 1,
+      "tags": [
+        "winter",
+        "snow",
+        "christmas",
+        "holiday",
+        "cold",
+        "ice"
+      ],
+      "season": {
+        "start": "12-01",
+        "end": "01-05"
+      },
+      "assets": [
+        {
+          "id": "snowflake_1",
+          "file": "snowflake_1.png",
+          "type": "sprite",
+          "slot": "falling",
+          "tags": [
+            "snow",
+            "snowflake",
+            "winter",
+            "christmas",
+            "cold",
+            "ice",
+            "flake"
+          ],
+          "w": 64,
+          "h": 64,
+          "sha256": "42fb71290d1651dd5091e9d8b332c2e427771be266646581ec8924bcd7950219"
+        },
+        {
+          "id": "snowflake_2",
+          "file": "snowflake_2.png",
+          "type": "sprite",
+          "slot": "falling",
+          "tags": [
+            "snow",
+            "snowflake",
+            "winter",
+            "christmas",
+            "flake",
+            "small"
+          ],
+          "w": 48,
+          "h": 48,
+          "sha256": "233734edc0e69faa32157237ddc448004e1c5f6fba14db7c1d4d75f3365b976f"
+        },
+        {
+          "id": "star_1",
+          "file": "star_1.png",
+          "type": "sprite",
+          "slot": "corner",
+          "tags": [
+            "star",
+            "christmas",
+            "gold",
+            "holiday",
+            "sparkle",
+            "new year"
+          ],
+          "w": 64,
+          "h": 64,
+          "sha256": "f4d47f4b72f40c12488243514a50bc9e6b21817d903ffb628d5b68f607b13461"
+        },
+        {
+          "id": "santa_hat",
+          "file": "santa_hat.png",
+          "type": "sprite",
+          "slot": "corner",
+          "tags": [
+            "santa",
+            "hat",
+            "christmas",
+            "holiday",
+            "festive"
+          ],
+          "w": 96,
+          "h": 96,
+          "sha256": "5cc4ea7355c9ba246a438892a0c944ebf7ca3bd60b1d76bc820aa6d0b1595a4c"
+        },
+        {
+          "id": "lights_top",
+          "file": "lights_top.png",
+          "type": "strip",
+          "slot": "top",
+          "tags": [
+            "lights",
+            "christmas",
+            "garland",
+            "festive",
+            "holiday",
+            "string lights"
+          ],
+          "w": 512,
+          "h": 48,
+          "sha256": "1acb93440ffb840fcbf6efe71be30547f5017aba5598392fc45fa4f5a3c5ef7b"
+        },
+        {
+          "id": "frame_ice",
+          "file": "frame_ice.png",
+          "type": "frame",
+          "slot": "border",
+          "tags": [
+            "frame",
+            "ice",
+            "winter",
+            "frost",
+            "border",
+            "cold"
+          ],
+          "w": 96,
+          "h": 96,
+          "sha256": "d9ef15ebcedb5628d0a1deee4d467b988ad4e951188a18e42061b687ea2a1033",
+          "slice": 24
+        }
+      ]
+    },
+    {
+      "id": "neon_demo",
+      "name": "Neon demo",
+      "version": 1,
+      "tags": [
+        "neon",
+        "cyber",
+        "gaming",
+        "glow"
+      ],
+      "assets": [
+        {
+          "id": "spark_1",
+          "file": "spark_1.png",
+          "type": "sprite",
+          "slot": "falling",
+          "tags": [
+            "spark",
+            "neon",
+            "glow",
+            "cyber",
+            "gaming",
+            "pink"
+          ],
+          "w": 48,
+          "h": 48,
+          "sha256": "d2f1ff0ef58f7e9af26abb99a49dfb6887e7c69493c29623649e683f0fbd39cc"
+        },
+        {
+          "id": "ring_1",
+          "file": "ring_1.png",
+          "type": "sprite",
+          "slot": "corner",
+          "tags": [
+            "ring",
+            "neon",
+            "glow",
+            "cyber",
+            "gaming",
+            "circle"
+          ],
+          "w": 64,
+          "h": 64,
+          "sha256": "c10e3fd5643bd9e421d499227578baeba5398c10253c980239777f83dab85f63"
+        },
+        {
+          "id": "frame_neon",
+          "file": "frame_neon.png",
+          "type": "frame",
+          "slot": "border",
+          "tags": [
+            "frame",
+            "neon",
+            "glow",
+            "border",
+            "cyber",
+            "gaming"
+          ],
+          "w": 96,
+          "h": 96,
+          "sha256": "ed5bee9f02856c2c57492e59c0aba7be89c458b5b8d3450ffa967cd6a52601c3",
+          "slice": 24
+        }
+      ]
+    }
+  ]
+}
