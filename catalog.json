@@ -1,191 +1,5657 @@
 {
-  "packs": [
+ "packs": [
+  {
+   "id": "winter_holiday",
+   "name": "Winter and Christmas",
+   "version": 1,
+   "tags": [
+    "winter",
+    "snow",
+    "christmas",
+    "xmas",
+    "holiday",
+    "festive",
+    "cold",
+    "ice",
+    "frost",
+    "santa",
+    "snowman",
+    "december",
+    "new year",
+    "cozy"
+   ],
+   "season": {
+    "start": "12-01",
+    "end": "01-05"
+   },
+   "assets": [
     {
-      "id": "winter_demo",
-      "name": "Winter demo",
-      "version": 1,
-      "tags": [
-        "winter",
-        "snow",
-        "christmas",
-        "holiday",
-        "cold",
-        "ice"
-      ],
-      "season": {
-        "start": "12-01",
-        "end": "01-05"
-      },
-      "assets": [
-        {
-          "id": "snowflake_1",
-          "file": "snowflake_1.png",
-          "type": "sprite",
-          "slot": "falling",
-          "tags": [
-            "snow",
-            "snowflake",
-            "winter",
-            "christmas",
-            "cold",
-            "ice",
-            "flake"
-          ],
-          "w": 64,
-          "h": 64,
-          "sha256": "42fb71290d1651dd5091e9d8b332c2e427771be266646581ec8924bcd7950219"
-        },
-        {
-          "id": "snowflake_2",
-          "file": "snowflake_2.png",
-          "type": "sprite",
-          "slot": "falling",
-          "tags": [
-            "snow",
-            "snowflake",
-            "winter",
-            "christmas",
-            "flake",
-            "small"
-          ],
-          "w": 48,
-          "h": 48,
-          "sha256": "233734edc0e69faa32157237ddc448004e1c5f6fba14db7c1d4d75f3365b976f"
-        },
-        {
-          "id": "star_1",
-          "file": "star_1.png",
-          "type": "sprite",
-          "slot": "corner",
-          "tags": [
-            "star",
-            "christmas",
-            "gold",
-            "holiday",
-            "sparkle",
-            "new year"
-          ],
-          "w": 64,
-          "h": 64,
-          "sha256": "f4d47f4b72f40c12488243514a50bc9e6b21817d903ffb628d5b68f607b13461"
-        },
-        {
-          "id": "santa_hat",
-          "file": "santa_hat.png",
-          "type": "sprite",
-          "slot": "corner",
-          "tags": [
-            "santa",
-            "hat",
-            "christmas",
-            "holiday",
-            "festive"
-          ],
-          "w": 96,
-          "h": 96,
-          "sha256": "5cc4ea7355c9ba246a438892a0c944ebf7ca3bd60b1d76bc820aa6d0b1595a4c"
-        },
-        {
-          "id": "lights_top",
-          "file": "lights_top.png",
-          "type": "strip",
-          "slot": "top",
-          "tags": [
-            "lights",
-            "christmas",
-            "garland",
-            "festive",
-            "holiday",
-            "string lights"
-          ],
-          "w": 512,
-          "h": 48,
-          "sha256": "1acb93440ffb840fcbf6efe71be30547f5017aba5598392fc45fa4f5a3c5ef7b"
-        },
-        {
-          "id": "frame_ice",
-          "file": "frame_ice.png",
-          "type": "frame",
-          "slot": "border",
-          "tags": [
-            "frame",
-            "ice",
-            "winter",
-            "frost",
-            "border",
-            "cold"
-          ],
-          "w": 96,
-          "h": 96,
-          "sha256": "d9ef15ebcedb5628d0a1deee4d467b988ad4e951188a18e42061b687ea2a1033",
-          "slice": 24
-        }
-      ]
+     "id": "snowflake_1",
+     "file": "snowflake_1.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "snow",
+      "snowflake",
+      "winter",
+      "christmas",
+      "cold",
+      "ice",
+      "flake",
+      "frost",
+      "white"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "beec2b09cbebfc1b244d14af8e695ef8dbc0464242cc438036aee865f1ef5129"
     },
     {
-      "id": "neon_demo",
-      "name": "Neon demo",
-      "version": 1,
-      "tags": [
-        "neon",
-        "cyber",
-        "gaming",
-        "glow"
-      ],
-      "assets": [
-        {
-          "id": "spark_1",
-          "file": "spark_1.png",
-          "type": "sprite",
-          "slot": "falling",
-          "tags": [
-            "spark",
-            "neon",
-            "glow",
-            "cyber",
-            "gaming",
-            "pink"
-          ],
-          "w": 48,
-          "h": 48,
-          "sha256": "d2f1ff0ef58f7e9af26abb99a49dfb6887e7c69493c29623649e683f0fbd39cc"
-        },
-        {
-          "id": "ring_1",
-          "file": "ring_1.png",
-          "type": "sprite",
-          "slot": "corner",
-          "tags": [
-            "ring",
-            "neon",
-            "glow",
-            "cyber",
-            "gaming",
-            "circle"
-          ],
-          "w": 64,
-          "h": 64,
-          "sha256": "c10e3fd5643bd9e421d499227578baeba5398c10253c980239777f83dab85f63"
-        },
-        {
-          "id": "frame_neon",
-          "file": "frame_neon.png",
-          "type": "frame",
-          "slot": "border",
-          "tags": [
-            "frame",
-            "neon",
-            "glow",
-            "border",
-            "cyber",
-            "gaming"
-          ],
-          "w": 96,
-          "h": 96,
-          "sha256": "ed5bee9f02856c2c57492e59c0aba7be89c458b5b8d3450ffa967cd6a52601c3",
-          "slice": 24
-        }
-      ]
+     "id": "snowflake_2",
+     "file": "snowflake_2.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "snow",
+      "snowflake",
+      "winter",
+      "delicate",
+      "ice",
+      "flake",
+      "crystal",
+      "cold",
+      "frost"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "80029e12f12e6334521ff138c22bc71152e073249713569182e461f77374eef4"
+    },
+    {
+     "id": "snow_dot",
+     "file": "snow_dot.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "snow",
+      "snowball",
+      "winter",
+      "soft",
+      "white",
+      "dot",
+      "flurry",
+      "cold",
+      "blizzard"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "e176efa88cdff4825a25ed29d417cda6f8f97cb39c3d1c4aa9adc61367c6efe4"
+    },
+    {
+     "id": "star_gold",
+     "file": "star_gold.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "star",
+      "christmas",
+      "gold",
+      "holiday",
+      "sparkle",
+      "new year",
+      "festive",
+      "tree topper",
+      "shine"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "698eae29f81189d0d083bb1789983cf34722609cffba4c94eaaabc227ac96e45"
+    },
+    {
+     "id": "shine_white",
+     "file": "shine_white.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "sparkle",
+      "shine",
+      "twinkle",
+      "glitter",
+      "star",
+      "winter",
+      "magic",
+      "white",
+      "glow"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "a72f45ce3ab6c18b70aa1af2de3c896acb693157815e2d9728a7758b3166c90a"
+    },
+    {
+     "id": "santa_hat",
+     "file": "santa_hat.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "santa",
+      "hat",
+      "christmas",
+      "xmas",
+      "holiday",
+      "festive",
+      "red",
+      "claus",
+      "december"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "f45ecd81a6de8686427a8dd5e735ca395fe411d80eda8dadbf3dd3a6da0892a5"
+    },
+    {
+     "id": "ornament_red",
+     "file": "ornament_red.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "ornament",
+      "bauble",
+      "christmas",
+      "tree",
+      "red",
+      "holiday",
+      "decoration",
+      "ball",
+      "festive"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "e266f5540fdf344436973ad8dbf46714809665478fe4aca914918974f4c208ac"
+    },
+    {
+     "id": "ornament_blue",
+     "file": "ornament_blue.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "ornament",
+      "bauble",
+      "christmas",
+      "tree",
+      "blue",
+      "holiday",
+      "decoration",
+      "ball",
+      "winter"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "beedb55b9ea1651f712ec5a1e8933715fba1bdd57eec0903a7c5953bafa3ca55"
+    },
+    {
+     "id": "ornament_gold",
+     "file": "ornament_gold.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "ornament",
+      "bauble",
+      "christmas",
+      "tree",
+      "gold",
+      "holiday",
+      "decoration",
+      "ball",
+      "luxury"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "b91d98b503edc412d549269f2c5e35fc95168e78a4d7787c0e24d2bf8899a02d"
+    },
+    {
+     "id": "bell",
+     "file": "bell.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "bell",
+      "christmas",
+      "jingle",
+      "gold",
+      "holiday",
+      "ring",
+      "festive",
+      "xmas"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "e70ebd9a08f54c853534ed4e2197974913cfc5d7d790bd637a696fbbda542d99"
+    },
+    {
+     "id": "gift_red",
+     "file": "gift_red.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "gift",
+      "present",
+      "christmas",
+      "box",
+      "red",
+      "holiday",
+      "birthday",
+      "surprise",
+      "ribbon"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "8c37afe6211f294fda22d5a6f79d25b82c4f341b9e1787c6365da23a256328b4"
+    },
+    {
+     "id": "gift_green",
+     "file": "gift_green.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "gift",
+      "present",
+      "christmas",
+      "box",
+      "green",
+      "holiday",
+      "birthday",
+      "surprise",
+      "ribbon"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "0bc6a5b2c2d0820c5b3f05770ac1309ddd726bb8ffb908016cdadb6c4cf1c753"
+    },
+    {
+     "id": "candy_cane",
+     "file": "candy_cane.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "candy cane",
+      "christmas",
+      "sweet",
+      "peppermint",
+      "holiday",
+      "red",
+      "white",
+      "xmas",
+      "treat"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "d8e6590e170e041bead6589e3786f6ff1ee3486f74fbee44d8c791e3afd09e82"
+    },
+    {
+     "id": "holly",
+     "file": "holly.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "holly",
+      "christmas",
+      "berries",
+      "green",
+      "red",
+      "holiday",
+      "wreath",
+      "plant",
+      "xmas"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "60801d626d4c09cfde873aa9d8ce51282ce8aaca3133dfbe14c82f1a4e7a2b90"
+    },
+    {
+     "id": "snowman",
+     "file": "snowman.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "snowman",
+      "winter",
+      "snow",
+      "christmas",
+      "cute",
+      "frosty",
+      "cold",
+      "hat",
+      "scarf"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "1d02d9df977e7068f4bf3e4665654630390afcbfc21aca3aa0e90a8e992147f3"
+    },
+    {
+     "id": "pine_snow",
+     "file": "pine_snow.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "pine",
+      "tree",
+      "christmas",
+      "snow",
+      "winter",
+      "fir",
+      "forest",
+      "evergreen",
+      "holiday"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "0c2946bc144e826b8c3cfb82537f72170e2331447217a7e81b0fe9d2dcaa5df6"
+    },
+    {
+     "id": "lights_top",
+     "file": "lights_top.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "lights",
+      "christmas",
+      "garland",
+      "festive",
+      "holiday",
+      "string lights",
+      "fairy lights",
+      "colorful",
+      "xmas"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "8ccbaeebf743b23deb8d4f43e2188c0435f8002cb086d0d0ac9aa04f50bfbbbd"
+    },
+    {
+     "id": "lights_blink",
+     "file": "lights_blink.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "lights",
+      "christmas",
+      "blinking",
+      "twinkle",
+      "animated",
+      "string lights",
+      "festive",
+      "holiday",
+      "flash"
+     ],
+     "w": 512,
+     "h": 96,
+     "sha256": "dd6db4c3c64b2ea87528b4ca8fec33d9a73fffb891048d089417b71494e3aa5b",
+     "frames": 2,
+     "cols": 1,
+     "fps": 2
+    },
+    {
+     "id": "icicles",
+     "file": "icicles.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "icicle",
+      "ice",
+      "winter",
+      "frozen",
+      "cold",
+      "frost",
+      "snow",
+      "hanging",
+      "freeze"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "076f046ed3986d0dd9891a95931b40e4a5a3c44b8fee3ed91b047a15746cfd3e"
+    },
+    {
+     "id": "garland",
+     "file": "garland.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "garland",
+      "christmas",
+      "holly",
+      "wreath",
+      "green",
+      "red",
+      "bow",
+      "holiday",
+      "festive",
+      "xmas"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "a60d6dbf8cb710c3242e0cdc910e6b41a2360233c912d1b4f92d29555393bcb9"
+    },
+    {
+     "id": "frame_ice",
+     "file": "frame_ice.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "ice",
+      "winter",
+      "frost",
+      "border",
+      "cold",
+      "frozen",
+      "snow",
+      "glacier"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "a42f9b020993b9ef1db8368d37c5b3dcc4fd6b2a1a244758dcedeaced8424042",
+     "slice": 24
+    },
+    {
+     "id": "frame_holly",
+     "file": "frame_holly.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "christmas",
+      "holly",
+      "border",
+      "green",
+      "red",
+      "holiday",
+      "wreath",
+      "xmas"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "daa4e37bd64e51b63206b26dd8c7e226149e8a8a986a772774a7302c2f6f6aba",
+     "slice": 24
+    },
+    {
+     "id": "frame_candy",
+     "file": "frame_candy.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "candy",
+      "christmas",
+      "border",
+      "red",
+      "white",
+      "stripes",
+      "sweet",
+      "peppermint"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "7f64b1956f61c1748109cc4006096c735b8c3e609f179011e65ddef59c42cbea",
+     "slice": 24
+    },
+    {
+     "id": "snow_sparkle",
+     "file": "snow_sparkle.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "snow",
+      "sparkle",
+      "twinkle",
+      "animated",
+      "winter",
+      "shine",
+      "glitter",
+      "frost",
+      "magic"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "0f30c42789e1d34d3d7fc3d57528f1e071d5ba97bf4596ae214ff6c12677074d",
+     "frames": 8,
+     "cols": 4,
+     "fps": 10
+    },
+    {
+     "id": "star_twinkle_gold",
+     "file": "star_twinkle_gold.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "star",
+      "twinkle",
+      "gold",
+      "animated",
+      "christmas",
+      "shine",
+      "sparkle",
+      "new year",
+      "glow"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "29386c3e349bc071db3230e4cb030151a2b900bcb58f96554d20396a1c743e15",
+     "frames": 8,
+     "cols": 4,
+     "fps": 9
     }
-  ]
+   ]
+  },
+  {
+   "id": "halloween",
+   "name": "Halloween",
+   "version": 1,
+   "tags": [
+    "halloween",
+    "spooky",
+    "scary",
+    "horror",
+    "october",
+    "pumpkin",
+    "ghost",
+    "bat",
+    "witch",
+    "haunted",
+    "trick or treat",
+    "creepy",
+    "night"
+   ],
+   "season": {
+    "start": "10-01",
+    "end": "11-01"
+   },
+   "assets": [
+    {
+     "id": "bat_1",
+     "file": "bat_1.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "bat",
+      "halloween",
+      "spooky",
+      "night",
+      "flying",
+      "vampire",
+      "dark",
+      "creepy",
+      "wings"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "2c44b4af5921cdd79db8c7190df06b1f555b776ae80474ba08ca24ec914ca16f"
+    },
+    {
+     "id": "bat_2",
+     "file": "bat_2.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "bat",
+      "halloween",
+      "spooky",
+      "night",
+      "flying",
+      "purple",
+      "dark",
+      "small",
+      "wings"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "21da02004cd2f8cf2c8cfa9adc46ce15039f450e4e0a0fc234079ec402889514"
+    },
+    {
+     "id": "ghost",
+     "file": "ghost.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "ghost",
+      "halloween",
+      "spooky",
+      "boo",
+      "haunted",
+      "cute",
+      "white",
+      "spirit",
+      "phantom"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "f5b6f9625962c60e88116c073dad0d0a802f9818d2792fe784560792df58424f"
+    },
+    {
+     "id": "pumpkin",
+     "file": "pumpkin.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "pumpkin",
+      "halloween",
+      "jack o lantern",
+      "orange",
+      "october",
+      "spooky",
+      "carved",
+      "autumn",
+      "fall"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "dbbe2c6e36484dd35d26a4a2696018c5314ff6957ed52ab149163870ca9dde3a"
+    },
+    {
+     "id": "pumpkin_green",
+     "file": "pumpkin_green.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "pumpkin",
+      "halloween",
+      "green",
+      "slime",
+      "spooky",
+      "toxic",
+      "carved",
+      "october"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "fc3ba8d014fbd61af34e144de2b8eec6f9af261b5142e29ecb1368b265b288cb"
+    },
+    {
+     "id": "spider",
+     "file": "spider.png",
+     "type": "sprite",
+     "slot": "top",
+     "tags": [
+      "spider",
+      "halloween",
+      "creepy",
+      "bug",
+      "web",
+      "black",
+      "spooky",
+      "arachnid",
+      "crawl"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "2d236fa136ff49b23d2e1f108681cdd90759405915b9ea6cf97f8f11e9af7070"
+    },
+    {
+     "id": "spider_dangle",
+     "file": "spider_dangle.png",
+     "type": "sprite",
+     "slot": "top",
+     "tags": [
+      "spider",
+      "dangle",
+      "thread",
+      "halloween",
+      "web",
+      "creepy",
+      "hanging",
+      "spooky",
+      "drop"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "d6ff2f212d1c3fb2694d1d2a5b09b692b8fb80668f6b425d5153052463e0816c"
+    },
+    {
+     "id": "moon_orange",
+     "file": "moon_orange.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "moon",
+      "halloween",
+      "orange",
+      "night",
+      "full moon",
+      "spooky",
+      "harvest",
+      "sky",
+      "glow"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "85f91ff0060aa6790627b5aa181ad40fe4e988f19e3d309720edbcb2025fb8cb"
+    },
+    {
+     "id": "witch_hat",
+     "file": "witch_hat.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "witch",
+      "hat",
+      "halloween",
+      "magic",
+      "purple",
+      "spooky",
+      "wizard",
+      "costume",
+      "cauldron"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "20ed50159f14064687267ab0d6690dc3c1ebf03c2472750384c5f7c1cda4c0f3"
+    },
+    {
+     "id": "candy_wrapped",
+     "file": "candy_wrapped.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "candy",
+      "sweet",
+      "halloween",
+      "trick or treat",
+      "wrapped",
+      "treat",
+      "sugar",
+      "orange",
+      "purple"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "d99ed8ce5df274d4e0726833a0afc92d88ec8397dc725b40edf8c4defeecdeb1"
+    },
+    {
+     "id": "cobweb_corner",
+     "file": "cobweb_corner.png",
+     "type": "sprite",
+     "slot": "top-left",
+     "tags": [
+      "cobweb",
+      "web",
+      "spider web",
+      "halloween",
+      "corner",
+      "creepy",
+      "haunted",
+      "spooky",
+      "silk"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "9f1aa13a8abe592859913a447794f2553823fc4c970031011bd1d5a2dc9d2241"
+    },
+    {
+     "id": "bunting_spooky",
+     "file": "bunting_spooky.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "bunting",
+      "flags",
+      "halloween",
+      "spooky",
+      "banner",
+      "orange",
+      "purple",
+      "black",
+      "party"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "20dc1939160e596e68442728511922537a96a3d0771af85cfcb57d15353234d7"
+    },
+    {
+     "id": "bats_row",
+     "file": "bats_row.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "bats",
+      "halloween",
+      "flying",
+      "night",
+      "flock",
+      "spooky",
+      "dark",
+      "swarm"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "1476ea3f830120434cea64e3e56ff4ee2d224aff48cc628c061c9549d44b509e"
+    },
+    {
+     "id": "frame_spooky",
+     "file": "frame_spooky.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "halloween",
+      "spooky",
+      "border",
+      "orange",
+      "web",
+      "creepy",
+      "haunted"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "ea7753d3590e731681ec5eb793d257e6b5e959ef1941147cbf1217d259fca00d",
+     "slice": 24
+    },
+    {
+     "id": "bat_flap",
+     "file": "bat_flap.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "bat",
+      "flap",
+      "animated",
+      "halloween",
+      "flying",
+      "spooky",
+      "night",
+      "wings",
+      "flutter"
+     ],
+     "w": 192,
+     "h": 128,
+     "sha256": "c6347e118dcfe7a521e42ae247c90901e41c13e41018b400f4cb2a8983996dd5",
+     "frames": 6,
+     "cols": 3,
+     "fps": 10
+    },
+    {
+     "id": "ghost_float",
+     "file": "ghost_float.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "ghost",
+      "float",
+      "animated",
+      "halloween",
+      "spooky",
+      "boo",
+      "haunted",
+      "hover",
+      "fade"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "ef42dc4670a5fc918b9f3f9c41d8c196413ad61308bb1c5354cccebc4945daf7",
+     "frames": 8,
+     "cols": 4,
+     "fps": 8
+    }
+   ]
+  },
+  {
+   "id": "valentine_love",
+   "name": "Love and Valentine",
+   "version": 1,
+   "tags": [
+    "love",
+    "valentine",
+    "heart",
+    "romance",
+    "romantic",
+    "pink",
+    "red",
+    "rose",
+    "cupid",
+    "february",
+    "couple",
+    "wedding",
+    "cute"
+   ],
+   "season": {
+    "start": "02-01",
+    "end": "02-16"
+   },
+   "assets": [
+    {
+     "id": "heart_red",
+     "file": "heart_red.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "heart",
+      "love",
+      "valentine",
+      "red",
+      "romance",
+      "romantic",
+      "like",
+      "passion",
+      "cute"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "c1d16169dc5eca95dad786dc93cefc59e06156d8b1161f58dcf78204926ed003"
+    },
+    {
+     "id": "heart_pink",
+     "file": "heart_pink.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "heart",
+      "love",
+      "valentine",
+      "pink",
+      "romance",
+      "cute",
+      "soft",
+      "sweet",
+      "like"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "36f93440edbd1f7c3a3525f07316fb889fe3d67dd2c1ca7acf79933a76e4f962"
+    },
+    {
+     "id": "heart_purple",
+     "file": "heart_purple.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "heart",
+      "love",
+      "purple",
+      "romance",
+      "magic",
+      "violet",
+      "cute",
+      "like",
+      "glow"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "1ccaa4415de468ab37281c21a6a732d156070dd183a5b1e9d25594e0ea975a9e"
+    },
+    {
+     "id": "heart_outline",
+     "file": "heart_outline.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "heart",
+      "outline",
+      "neon",
+      "love",
+      "glow",
+      "valentine",
+      "line",
+      "romance",
+      "light"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "08243bb0c41a6d4e686e712028db134f073bb68f3817d0db6326f9d4e85afc66"
+    },
+    {
+     "id": "rose",
+     "file": "rose.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "rose",
+      "flower",
+      "love",
+      "red",
+      "valentine",
+      "romance",
+      "bloom",
+      "petal",
+      "garden"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "4a1efaba4959606544412605a2154074ca32044e1643f52d2332d647a3d2689a"
+    },
+    {
+     "id": "arrow_heart",
+     "file": "arrow_heart.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "cupid",
+      "arrow",
+      "heart",
+      "love",
+      "valentine",
+      "romance",
+      "pierced",
+      "cute"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "d9b60d5e221719823ce4dda8ec0b979b48eb2bf2f535021215d0228e0eb728d9"
+    },
+    {
+     "id": "love_letter",
+     "file": "love_letter.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "letter",
+      "envelope",
+      "love",
+      "mail",
+      "valentine",
+      "romance",
+      "message",
+      "heart",
+      "note"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "e590bad0761934c737d35b1ce5e03d85553ab4c1b41b897f9f38a37f592c7a17"
+    },
+    {
+     "id": "hearts_garland",
+     "file": "hearts_garland.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "hearts",
+      "garland",
+      "love",
+      "valentine",
+      "string",
+      "romance",
+      "pink",
+      "red",
+      "decoration"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "1814c734c1223fbc7e541b68b96f8556e065fe4d6b5905cbfe4df58f55f06d80"
+    },
+    {
+     "id": "frame_hearts",
+     "file": "frame_hearts.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "hearts",
+      "love",
+      "valentine",
+      "border",
+      "pink",
+      "romance",
+      "cute"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "a455806910480cdb2a7c96e344a3f04e89e4217d07592fac8987ca7e246a11b7",
+     "slice": 24
+    },
+    {
+     "id": "heart_pulse",
+     "file": "heart_pulse.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "heart",
+      "pulse",
+      "beat",
+      "animated",
+      "love",
+      "valentine",
+      "throb",
+      "romance",
+      "glow"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "15707a5dd90a6657c17edb749cdadab7327e3bae7bb89d05810da196b3c6a190",
+     "frames": 8,
+     "cols": 4,
+     "fps": 9
+    },
+    {
+     "id": "heart_sparkle",
+     "file": "heart_sparkle.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "heart",
+      "sparkle",
+      "animated",
+      "love",
+      "twinkle",
+      "valentine",
+      "glitter",
+      "cute",
+      "shine"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "0b7efba80dcb52c424f37680b0c8e161d0651f521ef7aa120004f615b289778f",
+     "frames": 8,
+     "cols": 4,
+     "fps": 9
+    }
+   ]
+  },
+  {
+   "id": "spring_sakura",
+   "name": "Spring and Sakura",
+   "version": 1,
+   "tags": [
+    "spring",
+    "sakura",
+    "cherry blossom",
+    "flower",
+    "petal",
+    "japan",
+    "pink",
+    "butterfly",
+    "garden",
+    "nature",
+    "easter",
+    "bloom",
+    "floral",
+    "pastel"
+   ],
+   "season": {
+    "start": "03-15",
+    "end": "05-15"
+   },
+   "assets": [
+    {
+     "id": "petal_1",
+     "file": "petal_1.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "petal",
+      "sakura",
+      "cherry blossom",
+      "pink",
+      "spring",
+      "flower",
+      "japan",
+      "falling"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "cba554f168583a8ff8cfce64e5dbe782dfbff846a482453ac0c937b7b6b3cd3b"
+    },
+    {
+     "id": "petal_2",
+     "file": "petal_2.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "petal",
+      "sakura",
+      "cherry blossom",
+      "light",
+      "spring",
+      "flower",
+      "soft",
+      "white",
+      "pink"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "deefbeeefd37b587a806264f072af4e5a50829518ba3b661ee0b6f51599fa477"
+    },
+    {
+     "id": "blossom",
+     "file": "blossom.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "blossom",
+      "flower",
+      "sakura",
+      "cherry",
+      "pink",
+      "spring",
+      "bloom",
+      "floral",
+      "petals"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "2bfbaa356549285eff064c13269cb0d605b98f0a8aac2288b347b6740f78dbbd"
+    },
+    {
+     "id": "daisy",
+     "file": "daisy.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "daisy",
+      "flower",
+      "white",
+      "yellow",
+      "spring",
+      "garden",
+      "bloom",
+      "floral",
+      "nature"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "fbe0be75c186aafc5cf4873e29351f5f060ff43e2caee63fdf909d598ca107e4"
+    },
+    {
+     "id": "butterfly_pink",
+     "file": "butterfly_pink.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "butterfly",
+      "pink",
+      "spring",
+      "flying",
+      "insect",
+      "garden",
+      "wings",
+      "cute",
+      "nature"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "28561457b7cd3a7ba26b257e6061537b70e098647007afd99b644062c93a9476"
+    },
+    {
+     "id": "butterfly_blue",
+     "file": "butterfly_blue.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "butterfly",
+      "blue",
+      "spring",
+      "flying",
+      "insect",
+      "garden",
+      "wings",
+      "cute",
+      "nature"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "c34bcfa888c4683058329d1ff3427141e87c51b3c59cd56d4c38259a17d80e1d"
+    },
+    {
+     "id": "ladybug",
+     "file": "ladybug.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "ladybug",
+      "ladybird",
+      "bug",
+      "spring",
+      "garden",
+      "red",
+      "insect",
+      "cute",
+      "nature",
+      "luck"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "760c8422b0f168e7964ac88374fa563fb078af3dd9672e61088db145218e1f60"
+    },
+    {
+     "id": "leaf_green",
+     "file": "leaf_green.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "leaf",
+      "green",
+      "spring",
+      "nature",
+      "plant",
+      "fresh",
+      "eco",
+      "garden",
+      "foliage"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "0cabecfd84b3f67640f65146cd95c2a692080e84fb808783bafb3d3ac402df8d"
+    },
+    {
+     "id": "vine_flowers",
+     "file": "vine_flowers.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "vine",
+      "flowers",
+      "spring",
+      "floral",
+      "garden",
+      "green",
+      "pink",
+      "leaves",
+      "nature",
+      "decoration"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "5e8d75a7388226b67573ea1d9ff432b62d967eb103aaa502dfb5836b424ccc47"
+    },
+    {
+     "id": "frame_vine",
+     "file": "frame_vine.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "vine",
+      "leaves",
+      "spring",
+      "border",
+      "green",
+      "garden",
+      "nature",
+      "floral"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "2350b9117d39668330e6bfebda5b5ab0164cdf0c3d4895eae5f5bbcf2e8db244",
+     "slice": 24
+    },
+    {
+     "id": "butterfly_flap",
+     "file": "butterfly_flap.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "butterfly",
+      "flap",
+      "animated",
+      "spring",
+      "flying",
+      "wings",
+      "garden",
+      "flutter",
+      "nature"
+     ],
+     "w": 192,
+     "h": 128,
+     "sha256": "83902c209d372ab1548880c56a9a50f69893f10d7b8a6f7767a9ba01d68d4035",
+     "frames": 6,
+     "cols": 3,
+     "fps": 9
+    },
+    {
+     "id": "petal_spin",
+     "file": "petal_spin.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "petal",
+      "spin",
+      "animated",
+      "sakura",
+      "spring",
+      "falling",
+      "twirl",
+      "cherry blossom",
+      "pink"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "43ebefcb8c26dfa6b1e7de30726da838baf64587faf2f2abad484a560d985f56",
+     "frames": 8,
+     "cols": 4,
+     "fps": 8
+    }
+   ]
+  },
+  {
+   "id": "autumn_harvest",
+   "name": "Autumn",
+   "version": 1,
+   "tags": [
+    "autumn",
+    "fall",
+    "harvest",
+    "leaves",
+    "maple",
+    "acorn",
+    "thanksgiving",
+    "orange",
+    "cozy",
+    "october",
+    "november",
+    "mushroom",
+    "forest",
+    "warm"
+   ],
+   "season": {
+    "start": "09-15",
+    "end": "11-30"
+   },
+   "assets": [
+    {
+     "id": "maple_red",
+     "file": "maple_red.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "maple",
+      "leaf",
+      "red",
+      "autumn",
+      "fall",
+      "falling",
+      "canada",
+      "season"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "fbf55a4ed0d92cd8fb3e4e537945db2ab53e5ae336e796fc43b0c250ba595ed7"
+    },
+    {
+     "id": "maple_orange",
+     "file": "maple_orange.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "maple",
+      "leaf",
+      "orange",
+      "autumn",
+      "fall",
+      "falling",
+      "warm",
+      "season"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "1ea721458a2cc9f3c4282deac91aebb4029a91b5e2b55d9b045ac7e44d8b1dd2"
+    },
+    {
+     "id": "maple_yellow",
+     "file": "maple_yellow.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "maple",
+      "leaf",
+      "yellow",
+      "gold",
+      "autumn",
+      "fall",
+      "falling",
+      "warm",
+      "season"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "57984d3a699ff764f109ad2b8d98a4eba4a4e606f6344468ccee618abbc35195"
+    },
+    {
+     "id": "oak_leaf",
+     "file": "oak_leaf.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "oak",
+      "leaf",
+      "brown",
+      "autumn",
+      "fall",
+      "falling",
+      "forest",
+      "tree",
+      "season"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "7fcb5f836d3d0743ed44a84cff425f695127ac15150ad1628ba5fee239873a1c"
+    },
+    {
+     "id": "acorn",
+     "file": "acorn.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "acorn",
+      "oak",
+      "nut",
+      "autumn",
+      "fall",
+      "squirrel",
+      "forest",
+      "harvest",
+      "brown"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "71de194baa6e18a1d4f15d112a225e9d55fd8ed4e0134b1ed0d0af38843b7e3b"
+    },
+    {
+     "id": "mushroom",
+     "file": "mushroom.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "mushroom",
+      "toadstool",
+      "autumn",
+      "forest",
+      "red",
+      "fungi",
+      "woodland",
+      "cute",
+      "nature"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "2ffa147018328f4a82abd0edada5fb4b0affb8fced02bc61f14e8aa29825b5c7"
+    },
+    {
+     "id": "pumpkin_plain",
+     "file": "pumpkin_plain.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "pumpkin",
+      "autumn",
+      "harvest",
+      "thanksgiving",
+      "orange",
+      "fall",
+      "gourd",
+      "squash",
+      "farm"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "cf4d43540a1539919dfc49a11a7c92ff212c69b4a4eca47806fb8f242d117c5b"
+    },
+    {
+     "id": "leaves_garland",
+     "file": "leaves_garland.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "garland",
+      "leaves",
+      "autumn",
+      "fall",
+      "maple",
+      "string",
+      "decoration",
+      "harvest",
+      "orange"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "761ba2404085dbdc9aaae2252a22f64b4ed89ea9399a71a4de349058a93af7ef"
+    },
+    {
+     "id": "frame_leaves",
+     "file": "frame_leaves.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "leaves",
+      "autumn",
+      "fall",
+      "border",
+      "orange",
+      "harvest",
+      "maple"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "2cee9bc9720abed266d99575e87f5c8950df4ec3af54dfcd913acf622f00c17c",
+     "slice": 24
+    },
+    {
+     "id": "leaf_sway",
+     "file": "leaf_sway.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "leaf",
+      "sway",
+      "animated",
+      "autumn",
+      "falling",
+      "maple",
+      "fall",
+      "swing",
+      "drift"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "c71da75580e43ad3ad02a22ec1f6fd69edbdc093d007322a1b8d6831bfdc1e76",
+     "frames": 8,
+     "cols": 4,
+     "fps": 8
+    }
+   ]
+  },
+  {
+   "id": "neon_cyber",
+   "name": "Neon and Cyber",
+   "version": 1,
+   "tags": [
+    "neon",
+    "cyber",
+    "cyberpunk",
+    "glow",
+    "futuristic",
+    "synthwave",
+    "electric",
+    "tech",
+    "night",
+    "city",
+    "sci-fi",
+    "laser",
+    "retro",
+    "vaporwave",
+    "dark"
+   ],
+   "assets": [
+    {
+     "id": "spark_pink",
+     "file": "spark_pink.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "spark",
+      "neon",
+      "glow",
+      "cyber",
+      "pink",
+      "sparkle",
+      "plus",
+      "light",
+      "electric"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "b67573f63d4d2774410acf75238f4a9e8724b81b0fa7496dd33900165cebeebf"
+    },
+    {
+     "id": "spark_cyan",
+     "file": "spark_cyan.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "spark",
+      "neon",
+      "glow",
+      "cyber",
+      "cyan",
+      "sparkle",
+      "plus",
+      "light",
+      "electric"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "49fa20d31394ecdf76191b8bb906a94ebff106f4b0df0adfbb52aab1a9f7a108"
+    },
+    {
+     "id": "ring_cyan",
+     "file": "ring_cyan.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "ring",
+      "neon",
+      "glow",
+      "cyber",
+      "circle",
+      "cyan",
+      "hud",
+      "scanner",
+      "futuristic"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "8b1a435243e246b99a92a6453cd58b2bb69349594c016526fd9e282799c7b129"
+    },
+    {
+     "id": "ring_pink",
+     "file": "ring_pink.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "ring",
+      "neon",
+      "glow",
+      "cyber",
+      "circle",
+      "pink",
+      "hud",
+      "scanner",
+      "retro"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "f34712c8d985956df81282f3fc903e1c977d57c09eff9146d9e2a23fb742bb03"
+    },
+    {
+     "id": "diamond_neon",
+     "file": "diamond_neon.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "diamond",
+      "neon",
+      "glow",
+      "cyber",
+      "shape",
+      "geometric",
+      "outline",
+      "rhombus",
+      "violet"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "3d98993cb890bcb49523a1ce7c39c1284b9cbe8fe1c2cc4edaebbddd58a68d87"
+    },
+    {
+     "id": "triangle_neon",
+     "file": "triangle_neon.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "triangle",
+      "neon",
+      "glow",
+      "cyber",
+      "shape",
+      "geometric",
+      "outline",
+      "synthwave",
+      "pink"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "cb0fbbc04c3121d23c98a22356cc2089e0069961027a97d50735ac4aecba7705"
+    },
+    {
+     "id": "hex_neon",
+     "file": "hex_neon.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "hexagon",
+      "neon",
+      "glow",
+      "cyber",
+      "shape",
+      "geometric",
+      "outline",
+      "tech",
+      "cyan"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "79683d4361b0d4cdac61bdf01544dc643e0805d12756f54f9cc7feb69d5c874b"
+    },
+    {
+     "id": "star_neon",
+     "file": "star_neon.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "star",
+      "neon",
+      "glow",
+      "cyber",
+      "outline",
+      "retro",
+      "yellow",
+      "light",
+      "shine"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "c25b3483873b515fbb6a3f952c57798a47d0f1bcdb48c3dcdb6916eacb8ca654"
+    },
+    {
+     "id": "bolt_neon",
+     "file": "bolt_neon.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "bolt",
+      "lightning",
+      "neon",
+      "glow",
+      "cyber",
+      "energy",
+      "power",
+      "electric",
+      "yellow"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "ac8b7c61b66597c9b8ecd082fada32445c363758ce158b36fa83de84a154c045"
+    },
+    {
+     "id": "orb_violet",
+     "file": "orb_violet.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "orb",
+      "glow",
+      "neon",
+      "cyber",
+      "violet",
+      "ball",
+      "energy",
+      "light",
+      "plasma",
+      "soft"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "a90add4ea01d5528fa670b3031814d92d954050413c1dec94f9956ea562bec34"
+    },
+    {
+     "id": "neon_line_pink",
+     "file": "neon_line_pink.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "line",
+      "neon",
+      "glow",
+      "cyber",
+      "pink",
+      "bar",
+      "laser",
+      "divider",
+      "synthwave",
+      "light"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "9a9f253389edc335d50b389383e75db2e373238737df9558330c364a7d957ac7"
+    },
+    {
+     "id": "neon_line_cyan",
+     "file": "neon_line_cyan.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "line",
+      "neon",
+      "glow",
+      "cyber",
+      "cyan",
+      "bar",
+      "laser",
+      "divider",
+      "tech",
+      "light"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "8487dfa5e43ccd0733db45c90109baf976f611977d6ead0f094eecd243a86878"
+    },
+    {
+     "id": "frame_neon_cyan",
+     "file": "frame_neon_cyan.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "neon",
+      "glow",
+      "cyber",
+      "border",
+      "cyan",
+      "tech",
+      "futuristic",
+      "hud"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "e62494c6431da1245da15bcb77260453e9843f74c0b5b6d5163acf547976ed3b",
+     "slice": 24
+    },
+    {
+     "id": "frame_neon_pink",
+     "file": "frame_neon_pink.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "neon",
+      "glow",
+      "cyber",
+      "border",
+      "pink",
+      "synthwave",
+      "retro",
+      "vaporwave"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "f8bd74a8d21d1b848e491f54a746739b9ae0c2e19d73226871015bf7952c10bf",
+     "slice": 24
+    },
+    {
+     "id": "frame_neon_violet",
+     "file": "frame_neon_violet.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "neon",
+      "glow",
+      "cyber",
+      "border",
+      "violet",
+      "purple",
+      "night",
+      "magic"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "0f44036fa21cb9261ecba73a8c4dc2cc8c4a9a253ba6e973fd40977acc00b04f",
+     "slice": 24
+    },
+    {
+     "id": "ring_pulse",
+     "file": "ring_pulse.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "ring",
+      "pulse",
+      "animated",
+      "neon",
+      "glow",
+      "radar",
+      "cyber",
+      "sonar",
+      "wave"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "4d30a7810da9e7386fc02592849245ad6abb5f5146b9b909f4997d8ff87c6b5c",
+     "frames": 8,
+     "cols": 4,
+     "fps": 9
+    },
+    {
+     "id": "orb_pulse",
+     "file": "orb_pulse.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "orb",
+      "pulse",
+      "animated",
+      "glow",
+      "neon",
+      "breathing",
+      "energy",
+      "plasma",
+      "violet"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "ad385d27cb827f88519591d6e0f741868edac2166888f35226ad39ff7e6abbe3",
+     "frames": 8,
+     "cols": 4,
+     "fps": 8
+    }
+   ]
+  },
+  {
+   "id": "gaming_pixel",
+   "name": "Gaming and Pixel",
+   "version": 1,
+   "tags": [
+    "gaming",
+    "game",
+    "pixel",
+    "retro",
+    "arcade",
+    "8-bit",
+    "level",
+    "coin",
+    "gem",
+    "power up",
+    "score",
+    "controller",
+    "pixel art",
+    "esports",
+    "play"
+   ],
+   "assets": [
+    {
+     "id": "pixel_heart",
+     "file": "pixel_heart.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "heart",
+      "pixel",
+      "life",
+      "game",
+      "retro",
+      "8-bit",
+      "health",
+      "red",
+      "arcade"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "87b56bc867308db7c03c9076083640e67730d0642a294cd09bf5aac8bc2899a6"
+    },
+    {
+     "id": "pixel_star",
+     "file": "pixel_star.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "star",
+      "pixel",
+      "game",
+      "retro",
+      "8-bit",
+      "power up",
+      "yellow",
+      "arcade",
+      "score"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "781fe892759403d79ca6a3368991cff683e009029d5e24435f8c079a24e8f1fa"
+    },
+    {
+     "id": "pixel_potion",
+     "file": "pixel_potion.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "potion",
+      "pixel",
+      "game",
+      "retro",
+      "8-bit",
+      "health",
+      "mana",
+      "rpg",
+      "bottle"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "3994c75655c87f3dffa463eef0886bb40332451d2a66b25cc9ea921c13e3be13"
+    },
+    {
+     "id": "gem_green",
+     "file": "gem_green.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "gem",
+      "jewel",
+      "green",
+      "game",
+      "emerald",
+      "loot",
+      "treasure",
+      "crystal",
+      "reward"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "86e064d9013a9fd3793810f5c6ee830d9312ec6f899f3442732e2721f3353a90"
+    },
+    {
+     "id": "gem_blue",
+     "file": "gem_blue.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "gem",
+      "jewel",
+      "blue",
+      "game",
+      "sapphire",
+      "loot",
+      "treasure",
+      "crystal",
+      "reward"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "4e1346fd5cad2dfb15a394d6e4b2b19a3e27fe987261271fe723ac33132de9a9"
+    },
+    {
+     "id": "gem_red",
+     "file": "gem_red.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "gem",
+      "jewel",
+      "red",
+      "game",
+      "ruby",
+      "loot",
+      "treasure",
+      "crystal",
+      "reward"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "a12a95152bbd0523d124e9f3a42db6bebf56bb7ab21a27035038381e8ba36656"
+    },
+    {
+     "id": "coin",
+     "file": "coin.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "coin",
+      "gold",
+      "game",
+      "money",
+      "score",
+      "reward",
+      "arcade",
+      "currency",
+      "loot"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "09dc8bd50f33e800669bfda3cbf9685c94aa14117e8a0e4a46fdf37de87e3f5b"
+    },
+    {
+     "id": "shield",
+     "file": "shield.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "shield",
+      "defense",
+      "game",
+      "rpg",
+      "armor",
+      "protect",
+      "blue",
+      "knight",
+      "guard"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "b1e9efe20bc069d4cee47473fe26aa1875b551211579fc45b60c7a80c975f014"
+    },
+    {
+     "id": "gamepad",
+     "file": "gamepad.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "gamepad",
+      "controller",
+      "game",
+      "console",
+      "play",
+      "gaming",
+      "joystick",
+      "esports",
+      "player"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "a2ca5747bfebb99d6c1b67ba1707411ddc589a607e821545aab26f35c8d01a79"
+    },
+    {
+     "id": "bolt_yellow",
+     "file": "bolt_yellow.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "bolt",
+      "lightning",
+      "energy",
+      "power up",
+      "game",
+      "speed",
+      "electric",
+      "yellow",
+      "charge"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "d9068099a8b23352891d5ae6cf353f7dc76d90c5b937a2b766b98a36fb373e63"
+    },
+    {
+     "id": "pixel_grass",
+     "file": "pixel_grass.png",
+     "type": "strip",
+     "slot": "bottom",
+     "tags": [
+      "grass",
+      "pixel",
+      "game",
+      "retro",
+      "green",
+      "ground",
+      "platform",
+      "level",
+      "8-bit"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "b42531cd192e42eae9f2ec02ddd3caaee7f0f0908489930d41a6d507576f4bf6"
+    },
+    {
+     "id": "pixel_blocks",
+     "file": "pixel_blocks.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "blocks",
+      "bricks",
+      "pixel",
+      "game",
+      "retro",
+      "platform",
+      "orange",
+      "level",
+      "8-bit"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "54366640e3b943339e1aa011d00cd90c064fe2015358a88ed31cdc76a74c58dc"
+    },
+    {
+     "id": "frame_pixel_green",
+     "file": "frame_pixel_green.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "pixel",
+      "game",
+      "retro",
+      "border",
+      "green",
+      "8-bit",
+      "arcade",
+      "hud"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "6d177d643c5534008ee81155bdcbcbc6fcc49be6c52aa4f0eabe5eecd4984c66",
+     "slice": 24
+    },
+    {
+     "id": "frame_pixel_red",
+     "file": "frame_pixel_red.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "pixel",
+      "game",
+      "retro",
+      "border",
+      "red",
+      "8-bit",
+      "arcade",
+      "boss"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "8a05be67634d6bfeb46c38eafaccaecfcc5234a72f5dfe045b1322f36a83045c",
+     "slice": 24
+    },
+    {
+     "id": "coin_spin",
+     "file": "coin_spin.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "coin",
+      "spin",
+      "animated",
+      "gold",
+      "game",
+      "flip",
+      "reward",
+      "arcade",
+      "money"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "d3a230e27c96c66fecefc15ec924002495525ce1de580203f48c2f6fc5807022",
+     "frames": 8,
+     "cols": 4,
+     "fps": 12
+    },
+    {
+     "id": "powerup_blink",
+     "file": "powerup_blink.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "power up",
+      "star",
+      "blink",
+      "animated",
+      "game",
+      "pixel",
+      "flash",
+      "invincible",
+      "retro"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "70603f6773a78d8f7de9a4b78f747d703da695628763b82ba75acc90964fec6f",
+     "frames": 8,
+     "cols": 4,
+     "fps": 10
+    },
+    {
+     "id": "gem_shine",
+     "file": "gem_shine.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "gem",
+      "shine",
+      "animated",
+      "glint",
+      "jewel",
+      "sparkle",
+      "loot",
+      "reward",
+      "crystal"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "529c38c51c79f07f9be2564d0f1855cf07500cd1ba44aa465e8b0bcf01815027",
+     "frames": 8,
+     "cols": 4,
+     "fps": 9
+    }
+   ]
+  },
+  {
+   "id": "space_galaxy",
+   "name": "Space and Galaxy",
+   "version": 1,
+   "tags": [
+    "space",
+    "galaxy",
+    "cosmos",
+    "stars",
+    "planet",
+    "universe",
+    "astronaut",
+    "rocket",
+    "moon",
+    "night sky",
+    "nebula",
+    "sci-fi",
+    "astronomy",
+    "comet",
+    "alien"
+   ],
+   "assets": [
+    {
+     "id": "star_white",
+     "file": "star_white.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "star",
+      "twinkle",
+      "space",
+      "night",
+      "white",
+      "sparkle",
+      "sky",
+      "galaxy",
+      "shine"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "2e26d08b4f177384c3e8b725bafc2760e0332630683f1bad5b17398ab1bf3e37"
+    },
+    {
+     "id": "star_blue",
+     "file": "star_blue.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "star",
+      "twinkle",
+      "space",
+      "night",
+      "blue",
+      "sparkle",
+      "sky",
+      "galaxy",
+      "ice"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "c9c59a463bbb132e3f8e042ae06a80cc8f6be3aa678f8c8edaf2a92f41f48e15"
+    },
+    {
+     "id": "star_gold_space",
+     "file": "star_gold_space.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "star",
+      "gold",
+      "space",
+      "night",
+      "yellow",
+      "sparkle",
+      "sky",
+      "galaxy",
+      "warm"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "6e031d9b0b2ce503e7df52710b959eb3634b778d33a284e87727c3c593bcba80"
+    },
+    {
+     "id": "planet_ringed",
+     "file": "planet_ringed.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "planet",
+      "saturn",
+      "ring",
+      "space",
+      "galaxy",
+      "orange",
+      "cosmos",
+      "solar system",
+      "astronomy"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "a9cad48d733757f021ab586dbb2490a23f7975a43881a314168c7773d3f1495d"
+    },
+    {
+     "id": "planet_blue",
+     "file": "planet_blue.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "planet",
+      "blue",
+      "space",
+      "galaxy",
+      "cosmos",
+      "neptune",
+      "ocean",
+      "solar system",
+      "astronomy"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "5b2ead6b18ba0b224675e003283cbb4340283e877fbc491eeae680589722cebd"
+    },
+    {
+     "id": "moon_pale",
+     "file": "moon_pale.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "moon",
+      "space",
+      "night",
+      "crater",
+      "lunar",
+      "sky",
+      "silver",
+      "full moon",
+      "astronomy"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "ac7b215e0c0114eca3f829119c04fbd8d90587799c2877f8279ab7a964182060"
+    },
+    {
+     "id": "comet",
+     "file": "comet.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "comet",
+      "shooting star",
+      "space",
+      "meteor",
+      "tail",
+      "galaxy",
+      "sky",
+      "fast",
+      "trail"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "9bf72186693e762b9867c7e1b2260a67fb07771b7b1f1ba506e313f88c7e7f0b"
+    },
+    {
+     "id": "rocket",
+     "file": "rocket.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "rocket",
+      "space",
+      "launch",
+      "spaceship",
+      "astronaut",
+      "galaxy",
+      "travel",
+      "startup",
+      "fly"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "ad20312740f42867f4f1d7a8aae8d92f6d73f0c8e7a070b8099ecd2822d017e9"
+    },
+    {
+     "id": "nebula_purple",
+     "file": "nebula_purple.png",
+     "type": "sprite",
+     "slot": "wash",
+     "tags": [
+      "nebula",
+      "cloud",
+      "space",
+      "purple",
+      "galaxy",
+      "cosmos",
+      "glow",
+      "gas",
+      "soft"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "8a1e067ea9e8fd59cd5abe40bb80ac092face1e831f84d393a97af3c93e039f9"
+    },
+    {
+     "id": "nebula_blue",
+     "file": "nebula_blue.png",
+     "type": "sprite",
+     "slot": "wash",
+     "tags": [
+      "nebula",
+      "cloud",
+      "space",
+      "blue",
+      "galaxy",
+      "cosmos",
+      "glow",
+      "gas",
+      "calm"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "d7ea588300ce179ea6ff9863e4bf6a63f2cd64b5c03e37d20b4c19ce1e51fc24"
+    },
+    {
+     "id": "stars_row",
+     "file": "stars_row.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "stars",
+      "space",
+      "night",
+      "sky",
+      "galaxy",
+      "twinkle",
+      "starfield",
+      "cosmos",
+      "sparkle"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "461254dde94058e495c89abc0bff03ad31d3f6523f7d26c1b33ef676c6dfc712"
+    },
+    {
+     "id": "frame_stardust",
+     "file": "frame_stardust.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "stars",
+      "space",
+      "border",
+      "galaxy",
+      "stardust",
+      "night",
+      "cosmic",
+      "sparkle"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "373622f5b13ad6e3912add3584cba824524a7ce0ebe1375451272e57658a442a",
+     "slice": 24
+    },
+    {
+     "id": "star_twinkle",
+     "file": "star_twinkle.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "star",
+      "twinkle",
+      "animated",
+      "space",
+      "night",
+      "sparkle",
+      "shine",
+      "blink",
+      "sky"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "ebad5ddd4578904d3112c2ff066baa61f0af85e1ef4d0c52f8f0368c6e0018cb",
+     "frames": 8,
+     "cols": 4,
+     "fps": 9
+    },
+    {
+     "id": "shooting_star",
+     "file": "shooting_star.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "shooting star",
+      "meteor",
+      "animated",
+      "space",
+      "comet",
+      "wish",
+      "night",
+      "streak",
+      "fast"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "b0543c62c86334541c4778dfeeaa6cf4640402e5a6fd31de2b1e237a67350e89",
+     "frames": 8,
+     "cols": 4,
+     "fps": 10
+    },
+    {
+     "id": "rocket_flame",
+     "file": "rocket_flame.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "rocket",
+      "flame",
+      "animated",
+      "space",
+      "thrust",
+      "launch",
+      "fire",
+      "engine",
+      "fly"
+     ],
+     "w": 192,
+     "h": 128,
+     "sha256": "1fbeab056ff52324cdf2c7f0f5c73c2f8073849a61d50744bb250953f57b7e15",
+     "frames": 6,
+     "cols": 3,
+     "fps": 12
+    }
+   ]
+  },
+  {
+   "id": "ocean_reef",
+   "name": "Ocean and Reef",
+   "version": 1,
+   "tags": [
+    "ocean",
+    "sea",
+    "underwater",
+    "fish",
+    "bubble",
+    "beach",
+    "summer",
+    "coral",
+    "reef",
+    "jellyfish",
+    "wave",
+    "marine",
+    "aqua",
+    "blue",
+    "diving",
+    "starfish"
+   ],
+   "assets": [
+    {
+     "id": "bubble_1",
+     "file": "bubble_1.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "bubble",
+      "water",
+      "ocean",
+      "underwater",
+      "sea",
+      "aqua",
+      "float",
+      "blue",
+      "rise"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "9d854217449403f0c2cd4dbb57a9fe71a9ad7aa040c465af13f216a87e37cc98"
+    },
+    {
+     "id": "bubble_2",
+     "file": "bubble_2.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "bubble",
+      "water",
+      "ocean",
+      "underwater",
+      "small",
+      "aqua",
+      "float",
+      "teal",
+      "rise"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "add5ac77c5446d331721eb9d889701f8b55d136a3159ac984cd5084b50d88bf4"
+    },
+    {
+     "id": "fish_orange",
+     "file": "fish_orange.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "fish",
+      "orange",
+      "ocean",
+      "underwater",
+      "sea",
+      "goldfish",
+      "reef",
+      "swim",
+      "marine"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "fb0876954c328e08537f54b01198ca3ac50e9c8c46e916948c6895821feac346"
+    },
+    {
+     "id": "fish_blue",
+     "file": "fish_blue.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "fish",
+      "blue",
+      "ocean",
+      "underwater",
+      "sea",
+      "tropical",
+      "reef",
+      "swim",
+      "marine"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "acea3662c851c24d178df82e32c14246e71506e2894bbae0faf650d43b4de80e"
+    },
+    {
+     "id": "jellyfish_pink",
+     "file": "jellyfish_pink.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "jellyfish",
+      "pink",
+      "ocean",
+      "underwater",
+      "sea",
+      "glow",
+      "float",
+      "marine",
+      "deep"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "b65423ead31fb92ef21915bd06533119b0416ff625630ad5cae32b75ae2f8fe9"
+    },
+    {
+     "id": "starfish",
+     "file": "starfish.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "starfish",
+      "sea star",
+      "ocean",
+      "beach",
+      "orange",
+      "summer",
+      "marine",
+      "shore",
+      "reef"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "7f5545da191d38b907fc63dcb837c24656b96e92f0966041fa16545a15ca1fb6"
+    },
+    {
+     "id": "seashell",
+     "file": "seashell.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "shell",
+      "seashell",
+      "beach",
+      "ocean",
+      "summer",
+      "pink",
+      "sea",
+      "shore",
+      "vacation"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "54aa95c1315af84387b49f7bcbc39ebcc27f5c1d84d6230e03270a044e425af5"
+    },
+    {
+     "id": "waves",
+     "file": "waves.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "waves",
+      "water",
+      "ocean",
+      "sea",
+      "blue",
+      "surf",
+      "beach",
+      "summer",
+      "tide"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "fa6702bf9c37e8652a2f1548a45eaa2d674a12318e63e899b7a7355c861b9aff"
+    },
+    {
+     "id": "seaweed",
+     "file": "seaweed.png",
+     "type": "strip",
+     "slot": "bottom",
+     "tags": [
+      "seaweed",
+      "kelp",
+      "ocean",
+      "underwater",
+      "sea",
+      "plant",
+      "green",
+      "reef",
+      "algae"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "4e0ff2fe4bd1dc0614f06ad01b06ba3437a8e8cfe3fa49c715f2329fb7cead6b"
+    },
+    {
+     "id": "frame_ocean",
+     "file": "frame_ocean.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "ocean",
+      "water",
+      "border",
+      "blue",
+      "sea",
+      "bubbles",
+      "underwater",
+      "aqua"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "990285f070807cc7ad959d9af41b2f85ccce566ebd20a62b47fd646aec40e51c",
+     "slice": 24
+    },
+    {
+     "id": "bubble_pop",
+     "file": "bubble_pop.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "bubble",
+      "pop",
+      "animated",
+      "water",
+      "ocean",
+      "burst",
+      "splash",
+      "underwater",
+      "fun"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "ffc1d20ab9af86c227bd4328425530174ecaaafeb99fdcb3297121c67393c04a",
+     "frames": 8,
+     "cols": 4,
+     "fps": 10
+    },
+    {
+     "id": "jelly_pulse",
+     "file": "jelly_pulse.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "jellyfish",
+      "pulse",
+      "animated",
+      "ocean",
+      "glow",
+      "underwater",
+      "swim",
+      "float",
+      "deep sea"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "58394aafc8fb460686b2121df965be5f425cabfaadea79d80d6ea56a4da7a73b",
+     "frames": 8,
+     "cols": 4,
+     "fps": 8
+    }
+   ]
+  },
+  {
+   "id": "fire_embers",
+   "name": "Fire and Embers",
+   "version": 1,
+   "tags": [
+    "fire",
+    "flame",
+    "ember",
+    "hot",
+    "lava",
+    "burn",
+    "heat",
+    "spark",
+    "volcano",
+    "dragon",
+    "red",
+    "orange",
+    "bonfire",
+    "inferno",
+    "smoke"
+   ],
+   "assets": [
+    {
+     "id": "ember_1",
+     "file": "ember_1.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "ember",
+      "fire",
+      "spark",
+      "hot",
+      "glow",
+      "orange",
+      "burn",
+      "coal",
+      "cinder"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "bd8b4c4693c6758afa3828a096dea079d66f03211c25c7e547b49c59a5243b5d"
+    },
+    {
+     "id": "ember_2",
+     "file": "ember_2.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "ember",
+      "fire",
+      "spark",
+      "hot",
+      "glow",
+      "red",
+      "burn",
+      "coal",
+      "small"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "bf22849d37742427501215d5c8803c07e791063bcf8544cc06bb5bd7d962dfec"
+    },
+    {
+     "id": "spark_gold",
+     "file": "spark_gold.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "spark",
+      "fire",
+      "gold",
+      "glow",
+      "fly",
+      "hot",
+      "weld",
+      "flash",
+      "star"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "ee2480f1d99e4e2ff11717c99e8e6d96086c47d3ce58541c885974f6df5ce52a"
+    },
+    {
+     "id": "flame_big",
+     "file": "flame_big.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "flame",
+      "fire",
+      "hot",
+      "burn",
+      "orange",
+      "red",
+      "blaze",
+      "bonfire",
+      "heat"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "38e0fc360a86713bef6489b450a74680e7197048f99211c3987c8daf0c765e2a"
+    },
+    {
+     "id": "flame_blue",
+     "file": "flame_blue.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "flame",
+      "fire",
+      "blue",
+      "cold fire",
+      "magic",
+      "spirit",
+      "hot",
+      "gas",
+      "ice"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "9ea9173853c5a9199e38559b07b18f31a04576d4458e16c7f761009fe16e83e0"
+    },
+    {
+     "id": "smoke_puff",
+     "file": "smoke_puff.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "smoke",
+      "puff",
+      "grey",
+      "fire",
+      "cloud",
+      "steam",
+      "soft",
+      "haze",
+      "burn"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "1a382afe4ba7d9363b750f80044749685828f802835d99cea981359dfd188e57"
+    },
+    {
+     "id": "frame_fire",
+     "file": "frame_fire.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "fire",
+      "flame",
+      "border",
+      "red",
+      "orange",
+      "hot",
+      "burning",
+      "blaze"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "9060cc544494600c7b1b21ece6a71680d20399181133ff0cc17333f755c8c143",
+     "slice": 24
+    },
+    {
+     "id": "flames_bottom",
+     "file": "flames_bottom.png",
+     "type": "strip",
+     "slot": "bottom",
+     "tags": [
+      "flames",
+      "fire",
+      "bottom",
+      "hot",
+      "border",
+      "burn",
+      "red",
+      "orange",
+      "blaze"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "a68c8a334aeb6683b983f840ca8935635f9af9ca4524d92d193d96bee45e652b"
+    },
+    {
+     "id": "flames_bottom_anim",
+     "file": "flames_bottom_anim.png",
+     "type": "strip",
+     "slot": "bottom",
+     "tags": [
+      "flames",
+      "fire",
+      "animated",
+      "flicker",
+      "bottom",
+      "hot",
+      "burn",
+      "red",
+      "orange"
+     ],
+     "w": 512,
+     "h": 192,
+     "sha256": "5bd934b3ae526312fd8f41041ed7bd5581811ca7583112d55acf386dc6fc144f",
+     "frames": 4,
+     "cols": 1,
+     "fps": 8
+    },
+    {
+     "id": "flame_flicker",
+     "file": "flame_flicker.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "flame",
+      "flicker",
+      "animated",
+      "fire",
+      "hot",
+      "burn",
+      "candle",
+      "bonfire",
+      "heat"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "b1dacfd42bea2393fb98a36b3ffad7510216ea0716215c2d79fb6771ec78366c",
+     "frames": 8,
+     "cols": 4,
+     "fps": 12
+    },
+    {
+     "id": "ember_pop",
+     "file": "ember_pop.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "ember",
+      "pop",
+      "animated",
+      "fire",
+      "spark",
+      "burst",
+      "glow",
+      "cinder",
+      "fade"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "6b2065a5c9b815b96597caad99803212dd8eab5714d50abf126123874e7d0834",
+     "frames": 8,
+     "cols": 4,
+     "fps": 10
+    }
+   ]
+  },
+  {
+   "id": "gold_luxury",
+   "name": "Gold and Luxury",
+   "version": 1,
+   "tags": [
+    "gold",
+    "luxury",
+    "premium",
+    "vip",
+    "royal",
+    "diamond",
+    "crown",
+    "elegant",
+    "shiny",
+    "rich",
+    "glam",
+    "jewelry",
+    "coin",
+    "gem",
+    "black and gold",
+    "win"
+   ],
+   "assets": [
+    {
+     "id": "glint",
+     "file": "glint.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "glint",
+      "sparkle",
+      "gold",
+      "shine",
+      "glitter",
+      "luxury",
+      "star",
+      "twinkle",
+      "bling"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "592c060eab105823418b26bb02670c7c13a54783bf6d266f49cdd2c78c9b3ded"
+    },
+    {
+     "id": "star_gold_lux",
+     "file": "star_gold_lux.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "star",
+      "gold",
+      "luxury",
+      "rating",
+      "premium",
+      "shiny",
+      "badge",
+      "award",
+      "vip"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "7ca589ef0eb4e39df63dd3ac8670045ebb95d50f976bb0cf449d459437008a0c"
+    },
+    {
+     "id": "diamond",
+     "file": "diamond.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "diamond",
+      "gem",
+      "luxury",
+      "jewel",
+      "crystal",
+      "white",
+      "blue",
+      "premium",
+      "rich"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "95fbea680de51b79488461bdde5fc1e7638e2947a463bd5b3fbada6080e72b0d"
+    },
+    {
+     "id": "crown",
+     "file": "crown.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "crown",
+      "king",
+      "queen",
+      "royal",
+      "gold",
+      "luxury",
+      "vip",
+      "winner",
+      "premium"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "ede5b673487af024b4c6f144871310357afbe2e8bdb9e12f9a1a1d9339a26420"
+    },
+    {
+     "id": "coin_gold",
+     "file": "coin_gold.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "coin",
+      "gold",
+      "money",
+      "rich",
+      "luxury",
+      "currency",
+      "cash",
+      "treasure",
+      "payment"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "09dc8bd50f33e800669bfda3cbf9685c94aa14117e8a0e4a46fdf37de87e3f5b"
+    },
+    {
+     "id": "ribbon_gold",
+     "file": "ribbon_gold.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "ribbon",
+      "gold",
+      "luxury",
+      "banner",
+      "elegant",
+      "line",
+      "premium",
+      "divider",
+      "shiny"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "b6a0bde6cd639b87262d127baa140ee7b52b5b0149bc86448f1fd10a83554a9c"
+    },
+    {
+     "id": "frame_gold",
+     "file": "frame_gold.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "gold",
+      "luxury",
+      "border",
+      "elegant",
+      "premium",
+      "royal",
+      "ornate",
+      "vip"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "6c0bfb159d51a43dd0d02862b9c56150d122388419b7814161aeb0a91c985d98",
+     "slice": 24
+    },
+    {
+     "id": "gold_glint",
+     "file": "gold_glint.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "glint",
+      "gold",
+      "animated",
+      "sparkle",
+      "shine",
+      "glitter",
+      "luxury",
+      "twinkle",
+      "bling"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "f8669b279340d9653860960ae3addecffadb9a6f4fc322615d4cbf36d1218339",
+     "frames": 8,
+     "cols": 4,
+     "fps": 9
+    },
+    {
+     "id": "diamond_sparkle",
+     "file": "diamond_sparkle.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "diamond",
+      "sparkle",
+      "animated",
+      "gem",
+      "luxury",
+      "shine",
+      "glint",
+      "jewel",
+      "crystal"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "9884d212e9c801133aead27a6cb8f1a4249927bf1cd0ee622424a2c2187fd560",
+     "frames": 8,
+     "cols": 4,
+     "fps": 9
+    }
+   ]
+  },
+  {
+   "id": "party_celebration",
+   "name": "Party and Celebration",
+   "version": 1,
+   "tags": [
+    "party",
+    "celebration",
+    "birthday",
+    "new year",
+    "confetti",
+    "balloon",
+    "fireworks",
+    "festive",
+    "congratulations",
+    "anniversary",
+    "fun",
+    "carnival",
+    "graduation",
+    "win",
+    "cheers"
+   ],
+   "assets": [
+    {
+     "id": "confetti_pink",
+     "file": "confetti_pink.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "confetti",
+      "party",
+      "celebration",
+      "birthday",
+      "new year",
+      "festive",
+      "pink",
+      "paper",
+      "fun"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "2b8a1d7360717f159ec4d6ae19cadcc58e749c0041debb43c1b0a4a8c08cd861"
+    },
+    {
+     "id": "confetti_yellow",
+     "file": "confetti_yellow.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "confetti",
+      "party",
+      "celebration",
+      "birthday",
+      "new year",
+      "festive",
+      "yellow",
+      "paper",
+      "fun"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "4f66fa2dfecdc1526169eeb1a4bcb24422f4b86453464de0ea827d031a9f94ea"
+    },
+    {
+     "id": "confetti_blue",
+     "file": "confetti_blue.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "confetti",
+      "party",
+      "celebration",
+      "birthday",
+      "new year",
+      "festive",
+      "blue",
+      "paper",
+      "fun"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "1bae35779cab9b94fd2420f266d9297bc8e77c331048f7d8a366521bf7069e1b"
+    },
+    {
+     "id": "confetti_green",
+     "file": "confetti_green.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "confetti",
+      "party",
+      "celebration",
+      "birthday",
+      "new year",
+      "festive",
+      "green",
+      "paper",
+      "fun"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "fe5e97bebed8d904f9271fdf6748fe0638d76e26948fd3025a0795eebc1f6156"
+    },
+    {
+     "id": "confetti_purple",
+     "file": "confetti_purple.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "confetti",
+      "party",
+      "celebration",
+      "birthday",
+      "new year",
+      "festive",
+      "purple",
+      "paper",
+      "fun"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "15f0c16a48b2dd5e3800fd4f79fdf868389131259a881798c85f4cef4937c810"
+    },
+    {
+     "id": "confetti_orange",
+     "file": "confetti_orange.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "confetti",
+      "party",
+      "celebration",
+      "birthday",
+      "new year",
+      "festive",
+      "orange",
+      "paper",
+      "fun"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "fe1ad3fc4b881d62a3c658ac3d144b1c8116aebfc859f1b0a21f543e387fdd28"
+    },
+    {
+     "id": "balloon_red",
+     "file": "balloon_red.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "balloon",
+      "party",
+      "birthday",
+      "red",
+      "celebration",
+      "float",
+      "fun",
+      "festive",
+      "helium"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "02737034866a33ccb10fc6d129d0276a2432e9fd928f2bbe0b29b8e40c07e009"
+    },
+    {
+     "id": "balloon_blue",
+     "file": "balloon_blue.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "balloon",
+      "party",
+      "birthday",
+      "blue",
+      "celebration",
+      "float",
+      "fun",
+      "festive",
+      "helium"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "5097ebb91c07cb8995371f5b699ccf8a9256b02020f237686427af84057d8f3f"
+    },
+    {
+     "id": "balloon_yellow",
+     "file": "balloon_yellow.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "balloon",
+      "party",
+      "birthday",
+      "yellow",
+      "celebration",
+      "float",
+      "fun",
+      "festive",
+      "helium"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "7af176f09db4de8f17a3129083f75b33ec2060b429a3c8c4161d24c123eafbd0"
+    },
+    {
+     "id": "party_hat",
+     "file": "party_hat.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "party hat",
+      "birthday",
+      "celebration",
+      "cone",
+      "fun",
+      "festive",
+      "pink",
+      "cap",
+      "carnival"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "c272af05422f8a3e97ca206970bc76d9eb3ee758dc340d25eefe13124879fa8f"
+    },
+    {
+     "id": "star_party",
+     "file": "star_party.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "star",
+      "party",
+      "celebration",
+      "gold",
+      "shiny",
+      "festive",
+      "new year",
+      "award",
+      "fun"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "423bbc9a78541dee9aaff9db68d670a78bf1f483e7dfd6b1aecc6d66a2062f23"
+    },
+    {
+     "id": "streamers",
+     "file": "streamers.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "streamers",
+      "party",
+      "celebration",
+      "birthday",
+      "ribbon",
+      "colorful",
+      "festive",
+      "decoration",
+      "fun"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "6627384e62c5f89e86de3bb1691d3fbbbc18161e219cdda7d8260c4208854dce"
+    },
+    {
+     "id": "bunting_party",
+     "file": "bunting_party.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "bunting",
+      "flags",
+      "party",
+      "celebration",
+      "birthday",
+      "colorful",
+      "banner",
+      "festive",
+      "carnival"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "cb529e486888e8e0a69da0da4d6db0c36c46eed807280de5bb666cbae5cb4ed2"
+    },
+    {
+     "id": "frame_party",
+     "file": "frame_party.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "party",
+      "celebration",
+      "border",
+      "confetti",
+      "colorful",
+      "birthday",
+      "festive",
+      "fun"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "a2f1ec581b071c50401df79f1c4d1a34033575996240f6b305b68c19012cb0e6",
+     "slice": 24
+    },
+    {
+     "id": "firework_burst",
+     "file": "firework_burst.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "firework",
+      "burst",
+      "animated",
+      "new year",
+      "celebration",
+      "party",
+      "explosion",
+      "sparkle",
+      "night"
+     ],
+     "w": 320,
+     "h": 128,
+     "sha256": "a8a67b6cabf12317cf3067ec0052460e93e8872905e0d3264716009998713b03",
+     "frames": 10,
+     "cols": 5,
+     "fps": 10
+    },
+    {
+     "id": "firework_gold",
+     "file": "firework_gold.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "firework",
+      "gold",
+      "animated",
+      "new year",
+      "celebration",
+      "party",
+      "explosion",
+      "sparkle",
+      "luxury"
+     ],
+     "w": 320,
+     "h": 128,
+     "sha256": "56e22261bef39789cd7ee82cbdac58466214b92d720f8553a912d42bd40b3aa6",
+     "frames": 10,
+     "cols": 5,
+     "fps": 10
+    },
+    {
+     "id": "sparkle_pop",
+     "file": "sparkle_pop.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "sparkle",
+      "pop",
+      "animated",
+      "party",
+      "celebration",
+      "glitter",
+      "twinkle",
+      "fun",
+      "confetti"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "a5b234c44f3ab5385b85d5b37a939ee8ceba27f4c05e59a9019aa735924a518d",
+     "frames": 8,
+     "cols": 4,
+     "fps": 11
+    }
+   ]
+  },
+  {
+   "id": "rain_storm",
+   "name": "Rain and Storm",
+   "version": 1,
+   "tags": [
+    "rain",
+    "storm",
+    "weather",
+    "cloud",
+    "thunder",
+    "lightning",
+    "umbrella",
+    "wet",
+    "monsoon",
+    "drizzle",
+    "rainbow",
+    "gloomy",
+    "cozy",
+    "water",
+    "spring shower"
+   ],
+   "assets": [
+    {
+     "id": "raindrop",
+     "file": "raindrop.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "raindrop",
+      "rain",
+      "water",
+      "drop",
+      "weather",
+      "wet",
+      "blue",
+      "drizzle",
+      "storm"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "323ae3faf17311d03c51a27cb0fed439330a8235d78ef36fe9ec573a16e598aa"
+    },
+    {
+     "id": "raindrop_small",
+     "file": "raindrop_small.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "raindrop",
+      "rain",
+      "water",
+      "drop",
+      "small",
+      "weather",
+      "wet",
+      "light",
+      "drizzle"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "de3075412138ca49a614c73f1305e6b932d2eff7ec3a11601902ca2f880bfa61"
+    },
+    {
+     "id": "cloud_grey",
+     "file": "cloud_grey.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "cloud",
+      "grey",
+      "storm",
+      "rain",
+      "weather",
+      "overcast",
+      "gloomy",
+      "dark",
+      "sky"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "c997797c326c81728c006a48e392d9d4b788babbcc7d9de196f351d6cf6408bc"
+    },
+    {
+     "id": "cloud_white",
+     "file": "cloud_white.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "cloud",
+      "white",
+      "fluffy",
+      "sky",
+      "weather",
+      "soft",
+      "day",
+      "calm",
+      "cloudy"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "89506649cc99b4ca7b2eb1922fa35344fedd7cd9232d7d9d611a096ba618ce6a"
+    },
+    {
+     "id": "lightning",
+     "file": "lightning.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "lightning",
+      "bolt",
+      "thunder",
+      "storm",
+      "weather",
+      "electric",
+      "flash",
+      "yellow",
+      "power"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "f3213b7b2fc32ebb8300982fa7472845159f80977ee665ff76807644375f178a"
+    },
+    {
+     "id": "umbrella",
+     "file": "umbrella.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "umbrella",
+      "rain",
+      "weather",
+      "wet",
+      "red",
+      "shelter",
+      "drizzle",
+      "monsoon",
+      "cozy"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "7a9ed25586b7ece2553553883c2441a045b184e1acc358758e52b706ddf73c58"
+    },
+    {
+     "id": "rainbow",
+     "file": "rainbow.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "rainbow",
+      "colorful",
+      "weather",
+      "sky",
+      "spring",
+      "pride",
+      "after rain",
+      "arc",
+      "cute"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "2efa318ba67a24356514b320b2658c82492564ded47be7e04637337772743a8c"
+    },
+    {
+     "id": "clouds_top",
+     "file": "clouds_top.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "clouds",
+      "sky",
+      "weather",
+      "top",
+      "soft",
+      "white",
+      "cloudy",
+      "calm",
+      "day"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "ac1604fa32161279711ccb07f3e81fc194ef594d268357c335c70c733c1b2c0c"
+    },
+    {
+     "id": "lightning_flash",
+     "file": "lightning_flash.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "lightning",
+      "flash",
+      "animated",
+      "storm",
+      "thunder",
+      "bolt",
+      "weather",
+      "electric",
+      "strike"
+     ],
+     "w": 192,
+     "h": 128,
+     "sha256": "f301523da5f7b53807a989501fdce9ad6b069b16ef23e39ec1032162510e0778",
+     "frames": 6,
+     "cols": 3,
+     "fps": 8
+    },
+    {
+     "id": "rain_ripple",
+     "file": "rain_ripple.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "ripple",
+      "rain",
+      "animated",
+      "water",
+      "puddle",
+      "drop",
+      "splash",
+      "wave",
+      "circle"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "1089f63c7c2db098b72edf7737d1d18a1682b175bacc859c1a767d57e1a0184b",
+     "frames": 8,
+     "cols": 4,
+     "fps": 10
+    }
+   ]
+  },
+  {
+   "id": "kawaii_candy",
+   "name": "Kawaii and Candy",
+   "version": 1,
+   "tags": [
+    "kawaii",
+    "cute",
+    "candy",
+    "pastel",
+    "sweet",
+    "sugar",
+    "cupcake",
+    "rainbow",
+    "dessert",
+    "girly",
+    "bubblegum",
+    "lollipop",
+    "donut",
+    "soft",
+    "fairy",
+    "unicorn"
+   ],
+   "assets": [
+    {
+     "id": "star_pastel_pink",
+     "file": "star_pastel_pink.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "star",
+      "pastel",
+      "pink",
+      "cute",
+      "kawaii",
+      "sweet",
+      "soft",
+      "sparkle",
+      "girly"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "485263c33c3311c2f049c5c9e3fca6bdfbc116c6ff2aa750bd4f4b8840fe2ffa"
+    },
+    {
+     "id": "star_pastel_blue",
+     "file": "star_pastel_blue.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "star",
+      "pastel",
+      "blue",
+      "cute",
+      "kawaii",
+      "sweet",
+      "soft",
+      "sparkle",
+      "dreamy"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "b22d8bf16e7e2de4d46c5f172eecd5344099098d48cb48eaa64528c3e4a2aa3d"
+    },
+    {
+     "id": "star_pastel_yellow",
+     "file": "star_pastel_yellow.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "star",
+      "pastel",
+      "yellow",
+      "cute",
+      "kawaii",
+      "sweet",
+      "soft",
+      "sparkle",
+      "happy"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "d0865ec538c2a3e4e21734c7495512a88584fe4605daf7154119d254e8a25ad2"
+    },
+    {
+     "id": "heart_pastel",
+     "file": "heart_pastel.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "heart",
+      "pastel",
+      "pink",
+      "cute",
+      "kawaii",
+      "sweet",
+      "love",
+      "soft",
+      "girly"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "5c8026a8e04fee1f3336cd5d7ca09e58cad4b78b511f20193fe8eaf932ecdabf"
+    },
+    {
+     "id": "cupcake",
+     "file": "cupcake.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "cupcake",
+      "dessert",
+      "sweet",
+      "cute",
+      "kawaii",
+      "pink",
+      "bakery",
+      "candy",
+      "birthday"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "6d7aeac56c4b13576a3cdc27a3dfb7df54e89d544ac7e680cf3528a7bf3a4035"
+    },
+    {
+     "id": "lollipop",
+     "file": "lollipop.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "lollipop",
+      "candy",
+      "sweet",
+      "swirl",
+      "pink",
+      "kawaii",
+      "sugar",
+      "dessert",
+      "treat"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "508e7234d2f0de3d1849ba08e358662d021e81d4044c5c6a15d71c53c131e3a6"
+    },
+    {
+     "id": "smile_cloud",
+     "file": "smile_cloud.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "cloud",
+      "smile",
+      "kawaii",
+      "cute",
+      "happy",
+      "pastel",
+      "soft",
+      "face",
+      "dreamy"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "e64b9879e57b0838fcf3bef4e54ea494db27d437e3b327df1409bff8603ee4d8"
+    },
+    {
+     "id": "donut",
+     "file": "donut.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "donut",
+      "doughnut",
+      "dessert",
+      "sweet",
+      "pink",
+      "sprinkles",
+      "candy",
+      "bakery",
+      "treat"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "e77004ea53447dd14ee750b78d8eae409cc09debf9a3a8a0dc5ae784781f9217"
+    },
+    {
+     "id": "rainbow_band",
+     "file": "rainbow_band.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "rainbow",
+      "band",
+      "strip",
+      "pastel",
+      "colorful",
+      "cute",
+      "kawaii",
+      "line",
+      "candy"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "cf73afc6346d6ca35ff43ce7c10be871097891486fcb4d36527df45377b01ae8"
+    },
+    {
+     "id": "frame_pastel",
+     "file": "frame_pastel.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "pastel",
+      "cute",
+      "kawaii",
+      "border",
+      "pink",
+      "soft",
+      "sweet",
+      "dots"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "944e9d543ac99b239c88cae1d8b2957005a6fb74cbc795e3b3b0f5ec3c722299",
+     "slice": 24
+    },
+    {
+     "id": "sparkle_pastel",
+     "file": "sparkle_pastel.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "sparkle",
+      "pastel",
+      "animated",
+      "cute",
+      "kawaii",
+      "twinkle",
+      "glitter",
+      "soft",
+      "star"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "ddb3791783d05d0cc9764e58211072a59eaa28e20b3b50caa73226fc6a3598ef",
+     "frames": 8,
+     "cols": 4,
+     "fps": 9
+    },
+    {
+     "id": "heart_bounce",
+     "file": "heart_bounce.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "heart",
+      "bounce",
+      "animated",
+      "pastel",
+      "cute",
+      "kawaii",
+      "love",
+      "jump",
+      "happy"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "342549b56cfb80f7ebec5be408cfce6b60fd1b7471ca1a0baeca432aa03e559d",
+     "frames": 8,
+     "cols": 4,
+     "fps": 10
+    }
+   ]
+  },
+  {
+   "id": "magic_fantasy",
+   "name": "Magic and Fantasy",
+   "version": 1,
+   "tags": [
+    "magic",
+    "fantasy",
+    "wizard",
+    "witch",
+    "fairy",
+    "enchanted",
+    "spell",
+    "potion",
+    "crystal",
+    "rune",
+    "mystic",
+    "unicorn",
+    "dragon",
+    "fairytale",
+    "glow",
+    "mushroom",
+    "forest"
+   ],
+   "assets": [
+    {
+     "id": "sparkle_gold",
+     "file": "sparkle_gold.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "sparkle",
+      "magic",
+      "gold",
+      "glitter",
+      "fairy dust",
+      "twinkle",
+      "star",
+      "spell",
+      "shine"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "f4ba1af37794a3ff35841016ac33a7e528396bd24cc38fe5d81ce68e5cc69905"
+    },
+    {
+     "id": "sparkle_violet",
+     "file": "sparkle_violet.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "sparkle",
+      "magic",
+      "violet",
+      "purple",
+      "glitter",
+      "fairy dust",
+      "twinkle",
+      "spell",
+      "mystic"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "ad8adf4647d1654deee99076c115d8637478219338b96a7331ca24f2eaebceb0"
+    },
+    {
+     "id": "wand",
+     "file": "wand.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "wand",
+      "magic",
+      "wizard",
+      "spell",
+      "star",
+      "fantasy",
+      "witch",
+      "fairy",
+      "enchant"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "d5e206e69e3c97c86489fd0fc5ce9e4b929667a20c0439eab63e10077f7c474b"
+    },
+    {
+     "id": "potion_purple",
+     "file": "potion_purple.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "potion",
+      "magic",
+      "purple",
+      "bottle",
+      "witch",
+      "spell",
+      "elixir",
+      "fantasy",
+      "alchemy"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "b602ed2aab3f7f68a0bf2f3d453fbd5a48bc655588c0814092f368c46f50d46c"
+    },
+    {
+     "id": "potion_green",
+     "file": "potion_green.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "potion",
+      "magic",
+      "green",
+      "bottle",
+      "witch",
+      "poison",
+      "elixir",
+      "fantasy",
+      "alchemy"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "2c9c4318b9b8c2ed772cca0fb5078de608d820a0ff620c2783cbeff3eb211721"
+    },
+    {
+     "id": "crystal_blue",
+     "file": "crystal_blue.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "crystal",
+      "gem",
+      "magic",
+      "blue",
+      "mana",
+      "ice",
+      "fantasy",
+      "mystic",
+      "glow"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "95141eebc778f368dcf0d763d5574366f37506bdefa85749b3f03ae52ebf0dc5"
+    },
+    {
+     "id": "crystal_pink",
+     "file": "crystal_pink.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "crystal",
+      "gem",
+      "magic",
+      "pink",
+      "love",
+      "fantasy",
+      "mystic",
+      "glow",
+      "fairy"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "8f5909d0d5d72a9372c12d224a4e299cff5af8072a9a9723dcbdc4d74a573e71"
+    },
+    {
+     "id": "rune_circle",
+     "file": "rune_circle.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "rune",
+      "circle",
+      "magic",
+      "spell",
+      "pentagram",
+      "summon",
+      "mystic",
+      "glow",
+      "occult"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "38fec113927ae6f1f2c68cbc8c1e7b7b9e319236881d8f748a180b4f0dae187b"
+    },
+    {
+     "id": "mushroom_magic",
+     "file": "mushroom_magic.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "mushroom",
+      "magic",
+      "fairy",
+      "forest",
+      "red",
+      "toadstool",
+      "fantasy",
+      "woodland",
+      "enchanted"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "1bd669400605106f6adaaf2125345aab3b013b0b48e7c9c3e2e543660d8800dc"
+    },
+    {
+     "id": "moon_crescent",
+     "file": "moon_crescent.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "moon",
+      "crescent",
+      "magic",
+      "night",
+      "mystic",
+      "dream",
+      "sleep",
+      "witch",
+      "glow"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "899c860e393dd6da56951bd1f63e9a11f1ee5f0a55bd4d53cc1542b7a34c7445"
+    },
+    {
+     "id": "frame_arcane",
+     "file": "frame_arcane.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "arcane",
+      "magic",
+      "border",
+      "violet",
+      "rune",
+      "mystic",
+      "fantasy",
+      "spell"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "6b31f07dbda9d3e5b7912dba7ef5cbe65572b614351f432201d4e17e55b3faa4",
+     "slice": 24
+    },
+    {
+     "id": "firefly_glow",
+     "file": "firefly_glow.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "firefly",
+      "glow",
+      "animated",
+      "magic",
+      "forest",
+      "night",
+      "light",
+      "fairy",
+      "pulse"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "8be09819414d8f2feb4162c5f842a0aaff5fed02e5610f5dbdebd612d4783221",
+     "frames": 8,
+     "cols": 4,
+     "fps": 7
+    },
+    {
+     "id": "rune_spin",
+     "file": "rune_spin.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "rune",
+      "spin",
+      "animated",
+      "magic",
+      "circle",
+      "spell",
+      "glow",
+      "mystic",
+      "rotate"
+     ],
+     "w": 256,
+     "h": 192,
+     "sha256": "a283ad9aa12af7e0ab632fb520383fce39ba3d773e9599fec7b08c3598bdd70f",
+     "frames": 12,
+     "cols": 4,
+     "fps": 12
+    },
+    {
+     "id": "crystal_shine",
+     "file": "crystal_shine.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "crystal",
+      "shine",
+      "animated",
+      "magic",
+      "gem",
+      "glint",
+      "sparkle",
+      "mana",
+      "glow"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "cc03e889f1c6d0b448af03ae955b77e6664e7e4fd851b6642a51d346901c4587",
+     "frames": 8,
+     "cols": 4,
+     "fps": 9
+    }
+   ]
+  },
+  {
+   "id": "eid_ramadan",
+   "name": "Eid and Ramadan",
+   "version": 1,
+   "tags": [
+    "eid",
+    "ramadan",
+    "islamic",
+    "muslim",
+    "mubarak",
+    "crescent",
+    "lantern",
+    "fanous",
+    "moon",
+    "celebration",
+    "kareem",
+    "mosque",
+    "festival",
+    "star",
+    "gold",
+    "green"
+   ],
+   "assets": [
+    {
+     "id": "crescent_gold",
+     "file": "crescent_gold.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "crescent",
+      "moon",
+      "eid",
+      "ramadan",
+      "islamic",
+      "gold",
+      "night",
+      "mubarak",
+      "celebration"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "5bd827872cdf568e7fea67f1c96e62250c4b2a4e223a8d70db4645b4572a3cdf"
+    },
+    {
+     "id": "crescent_star",
+     "file": "crescent_star.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "crescent",
+      "star",
+      "eid",
+      "ramadan",
+      "islamic",
+      "gold",
+      "moon",
+      "mubarak",
+      "symbol"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "d3bc844d09fb6206f796b157fe69e1133fd8e5440edc755be99824989622cade"
+    },
+    {
+     "id": "star_islamic",
+     "file": "star_islamic.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "star",
+      "eight point",
+      "islamic",
+      "geometric",
+      "eid",
+      "ramadan",
+      "gold",
+      "pattern",
+      "decoration"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "e7e43b8b3e03379ae22a5ebe047213e447855506d9e26129908d49a9e99377e9"
+    },
+    {
+     "id": "lantern_gold",
+     "file": "lantern_gold.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "lantern",
+      "fanous",
+      "eid",
+      "ramadan",
+      "islamic",
+      "gold",
+      "light",
+      "glow",
+      "celebration"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "e60d5cb7fb34b93d4ae141bbd670f80ab2a4e00efa453aae990fd0ae78675077"
+    },
+    {
+     "id": "lantern_green",
+     "file": "lantern_green.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "lantern",
+      "fanous",
+      "eid",
+      "ramadan",
+      "islamic",
+      "green",
+      "light",
+      "glow",
+      "celebration"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "1a6a1dd4c4bd12625d6afa988f21f718c42ace4494840dcb502e58880993d038"
+    },
+    {
+     "id": "lanterns_hang",
+     "file": "lanterns_hang.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "lanterns",
+      "hanging",
+      "eid",
+      "ramadan",
+      "islamic",
+      "string",
+      "decoration",
+      "festival",
+      "stars"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "c9a658a0d7b7acda5a95cf48615e6b7a5ce5a1f54771b2807d9eb906071a85d4"
+    },
+    {
+     "id": "frame_islamic",
+     "file": "frame_islamic.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "islamic",
+      "geometric",
+      "eid",
+      "ramadan",
+      "border",
+      "gold",
+      "green",
+      "pattern"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "3e20caa7e0d9bf38eafef0a6697ebd330dfe08d559a6813a07f29f299ec186ab",
+     "slice": 24
+    },
+    {
+     "id": "lantern_glow",
+     "file": "lantern_glow.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "lantern",
+      "glow",
+      "animated",
+      "eid",
+      "ramadan",
+      "islamic",
+      "flicker",
+      "light",
+      "fanous"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "424fa0699a23ce410b1c1bca65fce62f16479a0972c0a4f32185b76b60c7e115",
+     "frames": 8,
+     "cols": 4,
+     "fps": 7
+    }
+   ]
+  },
+  {
+   "id": "naija_pride",
+   "name": "Naija Pride",
+   "version": 1,
+   "tags": [
+    "nigeria",
+    "naija",
+    "independence",
+    "ankara",
+    "african",
+    "green white green",
+    "afrobeat",
+    "lagos",
+    "pride",
+    "africa",
+    "celebration",
+    "october",
+    "pattern",
+    "festival",
+    "culture"
+   ],
+   "season": {
+    "start": "09-25",
+    "end": "10-05"
+   },
+   "assets": [
+    {
+     "id": "confetti_green",
+     "file": "confetti_green.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "confetti",
+      "nigeria",
+      "naija",
+      "green",
+      "independence",
+      "celebration",
+      "paper",
+      "festive",
+      "africa"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "3a12f6278f071cd3a9d4e2fe6184a3fb48d56276b3c7f003bf5d2323aba09656"
+    },
+    {
+     "id": "confetti_white",
+     "file": "confetti_white.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "confetti",
+      "nigeria",
+      "naija",
+      "white",
+      "independence",
+      "celebration",
+      "paper",
+      "festive",
+      "africa"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "2ec72039d9d4e4f8e0f88ce1b53121779b48c99780b184c400b6fddd34030b71"
+    },
+    {
+     "id": "star_gwg",
+     "file": "star_gwg.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "star",
+      "nigeria",
+      "naija",
+      "green",
+      "independence",
+      "celebration",
+      "pride",
+      "africa",
+      "festive"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "74aa191c7b9ec2b8fbb2b670b294042dd29c1579351fc8aa72ca8fe7ba7b7722"
+    },
+    {
+     "id": "ankara_disc",
+     "file": "ankara_disc.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "ankara",
+      "pattern",
+      "african",
+      "disc",
+      "colorful",
+      "fabric",
+      "nigeria",
+      "culture",
+      "print"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "9becf0449b05b08625a0c2c54489afaca7f94ee8bc4d7cc8560c6a82d7539885"
+    },
+    {
+     "id": "ankara_diamond",
+     "file": "ankara_diamond.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "ankara",
+      "pattern",
+      "african",
+      "diamond",
+      "colorful",
+      "fabric",
+      "nigeria",
+      "culture",
+      "print"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "33bbc2ed9c66dc7c73aee5976ec29f55d9c85301c39e616ae97ef0c36070a23e"
+    },
+    {
+     "id": "ankara_band",
+     "file": "ankara_band.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "ankara",
+      "pattern",
+      "african",
+      "band",
+      "colorful",
+      "fabric",
+      "nigeria",
+      "culture",
+      "print",
+      "border"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "923687135b581e8e3a0b5dc2a0e8b719b1e4b78304a59c98b74cbfb1f33b13eb"
+    },
+    {
+     "id": "flag_band",
+     "file": "flag_band.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "green white green",
+      "nigeria",
+      "naija",
+      "flag",
+      "band",
+      "independence",
+      "pride",
+      "national",
+      "colors"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "b5a467366aec1ef2252266dc7aaf90173541d37fb311525c445c067fa87beb45"
+    },
+    {
+     "id": "frame_ankara",
+     "file": "frame_ankara.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "ankara",
+      "african",
+      "border",
+      "pattern",
+      "colorful",
+      "nigeria",
+      "culture",
+      "fabric"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "13d8aeb7f60f5b50c8881660295ff57756b371cc1d328b738066de8b9f2100d4",
+     "slice": 24
+    },
+    {
+     "id": "ankara_spin",
+     "file": "ankara_spin.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "ankara",
+      "spin",
+      "animated",
+      "pattern",
+      "african",
+      "rotate",
+      "colorful",
+      "nigeria",
+      "culture"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "37f3924c1f96dcbcd541a788de2a663b92388469f4f088c6a7685870195fc5e0",
+     "frames": 8,
+     "cols": 4,
+     "fps": 8
+    }
+   ]
+  },
+  {
+   "id": "music_vibes",
+   "name": "Music and Vibes",
+   "version": 1,
+   "tags": [
+    "music",
+    "dj",
+    "concert",
+    "notes",
+    "beats",
+    "vinyl",
+    "party",
+    "audio",
+    "sound",
+    "equalizer",
+    "rhythm",
+    "song",
+    "club",
+    "afrobeat",
+    "hip hop",
+    "radio",
+    "festival"
+   ],
+   "assets": [
+    {
+     "id": "note_single",
+     "file": "note_single.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "note",
+      "music",
+      "song",
+      "sound",
+      "melody",
+      "pink",
+      "audio",
+      "beat",
+      "tune"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "cb4dcd4505e4023bd4c8730177f66a65bc34bfd41665e4b50b23963b1cca3ef7"
+    },
+    {
+     "id": "note_double",
+     "file": "note_double.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "note",
+      "music",
+      "song",
+      "sound",
+      "melody",
+      "violet",
+      "audio",
+      "beat",
+      "notes"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "bf9bb32e35a3d00195eee2b104dd7f90c6854c72dd7d5388fe392dfea522aa09"
+    },
+    {
+     "id": "note_cyan",
+     "file": "note_cyan.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "note",
+      "music",
+      "song",
+      "sound",
+      "melody",
+      "cyan",
+      "audio",
+      "beat",
+      "tune"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "a8d7fc63369e94c6cc3349fc5fa0dda017b9c0e0cb88fade6ed47d6f136916c1"
+    },
+    {
+     "id": "vinyl_disc",
+     "file": "vinyl_disc.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "vinyl",
+      "record",
+      "disc",
+      "music",
+      "retro",
+      "dj",
+      "turntable",
+      "old school",
+      "audio"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "7aa2f230a606f3b5907f81e5ec4198834826063f0a1f5d8d081aa3dd6844596b"
+    },
+    {
+     "id": "eq_bars",
+     "file": "eq_bars.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "equalizer",
+      "bars",
+      "music",
+      "sound",
+      "audio",
+      "visualizer",
+      "beat",
+      "wave",
+      "level"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "d164d6483c8ba85e16e997c62664224a101612ba1c8ab204bb249cee272d5676"
+    },
+    {
+     "id": "eq_band",
+     "file": "eq_band.png",
+     "type": "strip",
+     "slot": "bottom",
+     "tags": [
+      "equalizer",
+      "bars",
+      "music",
+      "strip",
+      "sound",
+      "audio",
+      "visualizer",
+      "beat",
+      "club"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "bf97cfefb015c149910272fe57c17e8a20cab85bc95b87f21c127c15622ec88f"
+    },
+    {
+     "id": "eq_bounce",
+     "file": "eq_bounce.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "equalizer",
+      "bounce",
+      "animated",
+      "music",
+      "sound",
+      "audio",
+      "visualizer",
+      "beat",
+      "dance"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "af715a3c31f267ceb8b3096cd42bc13a3307d077f1a09e21203f17c8754d9b90",
+     "frames": 8,
+     "cols": 4,
+     "fps": 10
+    },
+    {
+     "id": "vinyl_spin",
+     "file": "vinyl_spin.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "vinyl",
+      "spin",
+      "animated",
+      "record",
+      "music",
+      "dj",
+      "turntable",
+      "rotate",
+      "retro"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "c814ce53d409ab909c411bcf9989f0ce568a596d19c61dc5e907464b8521a5ac",
+     "frames": 8,
+     "cols": 4,
+     "fps": 10
+    }
+   ]
+  },
+  {
+   "id": "matrix_tech",
+   "name": "Matrix and Tech",
+   "version": 1,
+   "tags": [
+    "matrix",
+    "hacker",
+    "code",
+    "cyber",
+    "terminal",
+    "tech",
+    "green",
+    "binary",
+    "programming",
+    "computer",
+    "digital",
+    "data",
+    "network",
+    "ai",
+    "developer"
+   ],
+   "assets": [
+    {
+     "id": "glyph_0",
+     "file": "glyph_0.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "binary",
+      "zero",
+      "code",
+      "matrix",
+      "digit",
+      "green",
+      "hacker",
+      "data",
+      "terminal"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "a1dd3fca3d01299f2d0e0118bda00c956f204e1ab273fa8d43db785cc4e3ded8"
+    },
+    {
+     "id": "glyph_1",
+     "file": "glyph_1.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "binary",
+      "one",
+      "code",
+      "matrix",
+      "digit",
+      "green",
+      "hacker",
+      "data",
+      "terminal"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "41422a4876c629e4d7ad284ea5fe48462a951e576a9a7e1c5226d693ea9c6b1d"
+    },
+    {
+     "id": "glyph_hash",
+     "file": "glyph_hash.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "hash",
+      "symbol",
+      "code",
+      "matrix",
+      "green",
+      "hacker",
+      "terminal",
+      "programming",
+      "tag"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "e05b6bac5335a64a112f54f04e9623f8fa173f53413a3ea399ad86d0ee31f89f"
+    },
+    {
+     "id": "glyph_bracket",
+     "file": "glyph_bracket.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "bracket",
+      "code",
+      "matrix",
+      "green",
+      "programming",
+      "developer",
+      "terminal",
+      "syntax",
+      "tech"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "3df8b0c2a22e94276571a2f519bf5c42e6a27955a0d3397be5130c0b42cd9b5d"
+    },
+    {
+     "id": "circuit_line",
+     "file": "circuit_line.png",
+     "type": "strip",
+     "slot": "top",
+     "tags": [
+      "circuit",
+      "line",
+      "tech",
+      "green",
+      "matrix",
+      "board",
+      "electronics",
+      "cyber",
+      "data"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "bf2c13b75071a369831b3d1274f370ae39876685a991a099f75b2153bc3340b6"
+    },
+    {
+     "id": "frame_terminal",
+     "file": "frame_terminal.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "terminal",
+      "hacker",
+      "border",
+      "green",
+      "code",
+      "tech",
+      "hud",
+      "matrix"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "fc32ef736575a88a6db14cee270bdc705f9990c01f53cfcec87f064e0806c6b0",
+     "slice": 24
+    },
+    {
+     "id": "glyph_flicker",
+     "file": "glyph_flicker.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "code",
+      "flicker",
+      "animated",
+      "matrix",
+      "green",
+      "hacker",
+      "terminal",
+      "glitch",
+      "data"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "d68206bc155aa763ec10c6d9af9f98505e787b68b048ad488712ab1b6c5cc0a8",
+     "frames": 8,
+     "cols": 4,
+     "fps": 8
+    },
+    {
+     "id": "cursor_blink",
+     "file": "cursor_blink.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "cursor",
+      "blink",
+      "animated",
+      "terminal",
+      "code",
+      "matrix",
+      "green",
+      "hacker",
+      "prompt"
+     ],
+     "w": 128,
+     "h": 64,
+     "sha256": "caa2e88a7c98a051d9c304f2c95cce154e30b13a4766b5d55469ab106c0316bc",
+     "frames": 2,
+     "cols": 2,
+     "fps": 2
+    }
+   ]
+  },
+  {
+   "id": "forest_nature",
+   "name": "Forest and Nature",
+   "version": 1,
+   "tags": [
+    "forest",
+    "nature",
+    "green",
+    "woods",
+    "camping",
+    "tree",
+    "eco",
+    "earth",
+    "leaf",
+    "wild",
+    "fern",
+    "firefly",
+    "outdoors",
+    "hiking",
+    "plant",
+    "garden",
+    "calm"
+   ],
+   "assets": [
+    {
+     "id": "pine_tree",
+     "file": "pine_tree.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "pine",
+      "tree",
+      "forest",
+      "green",
+      "fir",
+      "woods",
+      "evergreen",
+      "nature",
+      "camping"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "58d8aedf121e0955929f320dc5c4987cc0c70ad1b199a03dcb379700fd5b42f7"
+    },
+    {
+     "id": "leaf_light",
+     "file": "leaf_light.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "leaf",
+      "light green",
+      "forest",
+      "nature",
+      "plant",
+      "fresh",
+      "eco",
+      "spring",
+      "foliage"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "19529581b9836622bdd10916cdc4856ed2868a72261f5d2dad941befa5768097"
+    },
+    {
+     "id": "leaf_dark",
+     "file": "leaf_dark.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "leaf",
+      "dark green",
+      "forest",
+      "nature",
+      "plant",
+      "jungle",
+      "eco",
+      "deep",
+      "foliage"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "91368929eef3e15f4b1353e7743c6340d77f1c7aa386838d22f545626baa9b4d"
+    },
+    {
+     "id": "mushroom_forest",
+     "file": "mushroom_forest.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "mushroom",
+      "forest",
+      "red",
+      "toadstool",
+      "woodland",
+      "fungi",
+      "nature",
+      "cute",
+      "wild"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "2ffa147018328f4a82abd0edada5fb4b0affb8fced02bc61f14e8aa29825b5c7"
+    },
+    {
+     "id": "firefly_dot",
+     "file": "firefly_dot.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "firefly",
+      "glow",
+      "forest",
+      "night",
+      "light",
+      "lightning bug",
+      "magic",
+      "summer",
+      "nature"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "46eea52286c41d97d4dcd70699e0b0edbb5c3fb7e1d14ce442ecb04043f6a23e"
+    },
+    {
+     "id": "flower_daisy",
+     "file": "flower_daisy.png",
+     "type": "sprite",
+     "slot": "corner",
+     "tags": [
+      "daisy",
+      "flower",
+      "white",
+      "yellow",
+      "garden",
+      "meadow",
+      "nature",
+      "spring",
+      "bloom"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "fbe0be75c186aafc5cf4873e29351f5f060ff43e2caee63fdf909d598ca107e4"
+    },
+    {
+     "id": "pines_row",
+     "file": "pines_row.png",
+     "type": "strip",
+     "slot": "bottom",
+     "tags": [
+      "pines",
+      "trees",
+      "forest",
+      "row",
+      "silhouette",
+      "green",
+      "woods",
+      "camping",
+      "nature"
+     ],
+     "w": 512,
+     "h": 48,
+     "sha256": "01ab5755373c9b8fa7ce9de24bc13521f071902898363b2adb31ecc82edebdd0"
+    },
+    {
+     "id": "frame_leaf",
+     "file": "frame_leaf.png",
+     "type": "frame",
+     "slot": "border",
+     "tags": [
+      "frame",
+      "leaf",
+      "forest",
+      "border",
+      "green",
+      "nature",
+      "eco",
+      "woods",
+      "plant"
+     ],
+     "w": 96,
+     "h": 96,
+     "sha256": "17f4fea688a18b5e20d184c2950e9701b5c582bc8257f87f592e28606e611042",
+     "slice": 24
+    },
+    {
+     "id": "firefly_pulse",
+     "file": "firefly_pulse.png",
+     "type": "sprite",
+     "slot": "falling",
+     "tags": [
+      "firefly",
+      "pulse",
+      "animated",
+      "forest",
+      "glow",
+      "night",
+      "magic",
+      "light",
+      "summer"
+     ],
+     "w": 256,
+     "h": 128,
+     "sha256": "97467193725a564adbf553188941cf608c94b8acf75872466cca97cd2203c710",
+     "frames": 8,
+     "cols": 4,
+     "fps": 7
+    }
+   ]
+  }
+ ]
 }
