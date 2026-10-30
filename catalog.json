@@ -17,8 +17,7 @@
     "santa",
     "snowman",
     "december",
-    "new year",
-    "cozy"
+    "new year"
    ],
    "season": {
     "start": "12-01",
@@ -536,6 +535,30 @@
      "frames": 8,
      "cols": 4,
      "fps": 9
+    },
+    {
+     "id": "scene_winter_hills",
+     "file": "scene_winter_hills.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "snowy hills",
+      "pines",
+      "garland",
+      "lights",
+      "moon",
+      "winter",
+      "christmas",
+      "snow",
+      "night",
+      "holiday",
+      "festive",
+      "xmas",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "383148a7b1361bbe4b8c570149f0fe479fd4167b0c0e84bd63583a9165549c8e"
     }
    ]
   },
@@ -555,8 +578,7 @@
     "witch",
     "haunted",
     "trick or treat",
-    "creepy",
-    "night"
+    "creepy"
    ],
    "season": {
     "start": "10-01",
@@ -886,6 +908,27 @@
      "frames": 8,
      "cols": 4,
      "fps": 8
+    },
+    {
+     "id": "scene_haunted_castle",
+     "file": "scene_haunted_castle.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "haunted castle",
+      "moon",
+      "bats",
+      "pumpkins",
+      "spooky",
+      "halloween",
+      "creepy",
+      "gothic",
+      "night",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "71517c4ec8a52d092b50b4f54bc66c2e7af1e4bab958af4dbfea72b734e7c2fc"
     }
    ]
   },
@@ -1137,6 +1180,26 @@
      "frames": 8,
      "cols": 4,
      "fps": 9
+    },
+    {
+     "id": "scene_hearts_roses",
+     "file": "scene_hearts_roses.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "hearts",
+      "roses",
+      "love",
+      "romance",
+      "valentine",
+      "pink",
+      "petals",
+      "garland",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "ccad639a4143884ab5d91db4edbef02260470eb15e0d266655be1a332018197d"
     }
    ]
   },
@@ -1412,6 +1475,27 @@
      "frames": 8,
      "cols": 4,
      "fps": 8
+    },
+    {
+     "id": "scene_sakura_branch",
+     "file": "scene_sakura_branch.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "sakura",
+      "cherry blossom",
+      "branch",
+      "petals",
+      "spring",
+      "pink",
+      "japan",
+      "butterfly",
+      "flowers",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "787757b47c9b6922d1b239f8cc10863b6ba9048532e595656b601bca9c9686f4"
     }
    ]
   },
@@ -1427,13 +1511,10 @@
     "maple",
     "acorn",
     "thanksgiving",
-    "orange",
-    "cozy",
     "october",
     "november",
     "mushroom",
-    "forest",
-    "warm"
+    "forest"
    ],
    "season": {
     "start": "09-15",
@@ -1640,6 +1721,27 @@
      "frames": 8,
      "cols": 4,
      "fps": 8
+    },
+    {
+     "id": "scene_autumn_woods",
+     "file": "scene_autumn_woods.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "autumn",
+      "woods",
+      "maple",
+      "leaves",
+      "pumpkins",
+      "fall",
+      "harvest",
+      "trees",
+      "orange",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "30a7920526d3d242aa64bc5c3259296600ce0272d0a4a151e0df32e6c5c565dc"
     }
    ]
   },
@@ -1656,13 +1758,10 @@
     "synthwave",
     "electric",
     "tech",
-    "night",
-    "city",
     "sci-fi",
     "laser",
     "retro",
-    "vaporwave",
-    "dark"
+    "vaporwave"
    ],
    "assets": [
     {
@@ -2016,6 +2115,27 @@
      "frames": 8,
      "cols": 4,
      "fps": 8
+    },
+    {
+     "id": "scene_neon_city",
+     "file": "scene_neon_city.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "neon",
+      "city",
+      "skyline",
+      "cyberpunk",
+      "synthwave",
+      "sunset",
+      "grid",
+      "night",
+      "retro",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "f746e31c1bc2730e3ea7946c5c92fdc89bd773eb076643e9c8c5b3cf2707113a"
     }
    ]
   },
@@ -2391,6 +2511,27 @@
      "frames": 8,
      "cols": 4,
      "fps": 9
+    },
+    {
+     "id": "scene_pixel_world",
+     "file": "scene_pixel_world.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "pixel",
+      "retro",
+      "game",
+      "mario",
+      "platformer",
+      "coins",
+      "blocks",
+      "clouds",
+      "8bit",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "baf1db509de3ac4294c3490dad0e2e2923d7b17aaf156211d211efff81f577f2"
     }
    ]
   },
@@ -2408,7 +2549,6 @@
     "astronaut",
     "rocket",
     "moon",
-    "night sky",
     "nebula",
     "sci-fi",
     "astronomy",
@@ -2725,6 +2865,27 @@
      "frames": 6,
      "cols": 3,
      "fps": 12
+    },
+    {
+     "id": "scene_space_nebula",
+     "file": "scene_space_nebula.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "space",
+      "nebula",
+      "galaxy",
+      "stars",
+      "planet",
+      "comet",
+      "rocket",
+      "cosmos",
+      "universe",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "3b8087b4c66b77ec896b4cd5969903e4502e23545d07c318e20e0ee9541ba648"
     }
    ]
   },
@@ -2746,7 +2907,6 @@
     "wave",
     "marine",
     "aqua",
-    "blue",
     "diving",
     "starfish"
    ],
@@ -2997,6 +3157,27 @@
      "frames": 8,
      "cols": 4,
      "fps": 8
+    },
+    {
+     "id": "scene_reef_floor",
+     "file": "scene_reef_floor.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "ocean",
+      "reef",
+      "coral",
+      "fish",
+      "jellyfish",
+      "bubbles",
+      "underwater",
+      "sea",
+      "light rays",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "72eb30d6b4d8ec6788ef1ea797b12ff6ca20ad0d033539d7675dcd64a588e9e0"
     }
    ]
   },
@@ -3008,15 +3189,12 @@
     "fire",
     "flame",
     "ember",
-    "hot",
     "lava",
     "burn",
     "heat",
     "spark",
     "volcano",
     "dragon",
-    "red",
-    "orange",
     "bonfire",
     "inferno",
     "smoke"
@@ -3251,6 +3429,26 @@
      "frames": 8,
      "cols": 4,
      "fps": 10
+    },
+    {
+     "id": "scene_lava_glow",
+     "file": "scene_lava_glow.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "fire",
+      "flames",
+      "embers",
+      "lava",
+      "heat",
+      "burning",
+      "inferno",
+      "hot",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "7c1da40cf611718ae9d1bbb75f7d5d6e9ffa1dd992b490a952d1d39dbbcc921c"
     }
    ]
   },
@@ -3268,13 +3466,11 @@
     "crown",
     "elegant",
     "shiny",
-    "rich",
     "glam",
     "jewelry",
     "coin",
     "gem",
-    "black and gold",
-    "win"
+    "black and gold"
    ],
    "assets": [
     {
@@ -3463,6 +3659,27 @@
      "frames": 8,
      "cols": 4,
      "fps": 9
+    },
+    {
+     "id": "scene_gold_frame",
+     "file": "scene_gold_frame.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "gold",
+      "luxury",
+      "frame",
+      "crown",
+      "gems",
+      "royal",
+      "premium",
+      "vip",
+      "elegant",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "6e0a7a42630e3a027691ba1753c817386ae3694f2c7cf0f2651ea3a90a5bcd77"
     }
    ]
   },
@@ -3837,6 +4054,26 @@
      "frames": 8,
      "cols": 4,
      "fps": 11
+    },
+    {
+     "id": "scene_confetti_party",
+     "file": "scene_confetti_party.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "party",
+      "confetti",
+      "balloons",
+      "fireworks",
+      "celebration",
+      "birthday",
+      "streamers",
+      "festive",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "41f8f752dd65c3774765098941a008e9e9f0f0720d0de53b0f984d08956d2375"
     }
    ]
   },
@@ -3857,8 +4094,6 @@
     "drizzle",
     "rainbow",
     "gloomy",
-    "cozy",
-    "water",
     "spring shower"
    ],
    "assets": [
@@ -4067,6 +4302,27 @@
      "frames": 8,
      "cols": 4,
      "fps": 10
+    },
+    {
+     "id": "scene_storm_clouds",
+     "file": "scene_storm_clouds.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "rain",
+      "storm",
+      "clouds",
+      "lightning",
+      "umbrella",
+      "puddles",
+      "weather",
+      "thunder",
+      "gloomy",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "7bc638095ba4863f7a42ead94f56975bd1604af1641ed29daa73b05b53df93c7"
     }
    ]
   },
@@ -4088,7 +4344,6 @@
     "bubblegum",
     "lollipop",
     "donut",
-    "soft",
     "fairy",
     "unicorn"
    ],
@@ -4339,6 +4594,27 @@
      "frames": 8,
      "cols": 4,
      "fps": 10
+    },
+    {
+     "id": "scene_candy_land",
+     "file": "scene_candy_land.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "candy",
+      "kawaii",
+      "rainbow",
+      "cupcake",
+      "lollipop",
+      "clouds",
+      "pastel",
+      "sweet",
+      "cute",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "4dfcf5310e31b4ed93c884b9565690155a288b63d7d27323c53bc6c577bcdd99"
     }
    ]
   },
@@ -4655,6 +4931,27 @@
      "frames": 8,
      "cols": 4,
      "fps": 9
+    },
+    {
+     "id": "scene_enchanted_castle",
+     "file": "scene_enchanted_castle.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "magic",
+      "castle",
+      "fairytale",
+      "moon",
+      "stars",
+      "crystals",
+      "sparkles",
+      "fantasy",
+      "enchanted",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "b60b9b0981f63e69449b5910aac20d0e97f4128c08644f2d14653b269ade952a"
     }
    ]
   },
@@ -4675,10 +4972,7 @@
     "celebration",
     "kareem",
     "mosque",
-    "festival",
-    "star",
-    "gold",
-    "green"
+    "festival"
    ],
    "assets": [
     {
@@ -4844,6 +5138,27 @@
      "frames": 8,
      "cols": 4,
      "fps": 7
+    },
+    {
+     "id": "scene_crescent_mosque",
+     "file": "scene_crescent_mosque.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "eid",
+      "ramadan",
+      "crescent",
+      "lanterns",
+      "mosque",
+      "stars",
+      "islamic",
+      "night",
+      "festive",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "ce8f4da2401b937699e06f7ead4ff075d839291af7b2b8945b072e72e4014cfb"
     }
    ]
   },
@@ -5057,6 +5372,26 @@
      "frames": 8,
      "cols": 4,
      "fps": 8
+    },
+    {
+     "id": "scene_green_white_ribbons",
+     "file": "scene_green_white_ribbons.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "nigeria",
+      "naija",
+      "green white green",
+      "ribbons",
+      "independence",
+      "flag",
+      "ankara",
+      "celebration",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "1f2a01c64660b4692d64f5c38a2eda129fef155b0168017f97abffcba93f27e6"
     }
    ]
   },
@@ -5249,6 +5584,27 @@
      "frames": 8,
      "cols": 4,
      "fps": 10
+    },
+    {
+     "id": "scene_stage_beats",
+     "file": "scene_stage_beats.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "music",
+      "stage",
+      "spotlights",
+      "equalizer",
+      "notes",
+      "vinyl",
+      "concert",
+      "dj",
+      "club",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "73c875a9e62325b9f39052cd193e3ef90712c2b4b3c2d396813a360c08e389c7"
     }
    ]
   },
@@ -5263,7 +5619,6 @@
     "cyber",
     "terminal",
     "tech",
-    "green",
     "binary",
     "programming",
     "computer",
@@ -5440,6 +5795,26 @@
      "frames": 2,
      "cols": 2,
      "fps": 2
+    },
+    {
+     "id": "scene_code_rain",
+     "file": "scene_code_rain.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "matrix",
+      "code rain",
+      "hacker",
+      "green",
+      "circuit",
+      "terminal",
+      "digital",
+      "tech",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "efec5ea23421270d26819d7cb847d92a136c1e69d4eeb66c2a0fe87c0dffaef9"
     }
    ]
   },
@@ -5450,21 +5825,17 @@
    "tags": [
     "forest",
     "nature",
-    "green",
     "woods",
     "camping",
     "tree",
     "eco",
     "earth",
     "leaf",
-    "wild",
     "fern",
     "firefly",
     "outdoors",
     "hiking",
-    "plant",
-    "garden",
-    "calm"
+    "garden"
    ],
    "assets": [
     {
@@ -5650,6 +6021,27 @@
      "frames": 8,
      "cols": 4,
      "fps": 7
+    },
+    {
+     "id": "scene_misty_forest",
+     "file": "scene_misty_forest.png",
+     "type": "scene",
+     "slot": "scene",
+     "tags": [
+      "forest",
+      "misty",
+      "trees",
+      "ferns",
+      "fireflies",
+      "light rays",
+      "nature",
+      "woods",
+      "camping",
+      "full screen"
+     ],
+     "w": 600,
+     "h": 1300,
+     "sha256": "5775380a35acc8b8cf27b44e156ae35cade31c4654b63a78dc3e3adb6d514dd1"
     }
    ]
   }
